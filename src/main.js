@@ -146,6 +146,8 @@ class VisualNovelApp {
       this.choiceContainer,
       (optionKey) => {
         this.audioManager.playClick();
+        this.clearGlitchEffects();
+        this.choiceContainer.classList.add('hidden');
         this.stateMachine.selectChoice(optionKey);
       },
       () => {
@@ -392,6 +394,9 @@ class VisualNovelApp {
       this.currentSceneId = state.currentScene;
       this.stopAutoPlay();
       this.stopSkipMode();
+      this.clearGlitchEffects();
+      this.choiceContainer.classList.add('hidden');
+      this.dialogueContainer.classList.add('hidden');
 
       this.sceneTransition.play(scene.title, () => {
         this._renderSceneComponents(state, scene, this.stateMachine.getCurrentDialogue());

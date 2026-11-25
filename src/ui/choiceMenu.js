@@ -12,9 +12,11 @@ export class ChoiceMenu {
     this.container = containerElement;
     this.onSelectOption = onSelectOption || (() => {});
     this.onHoverOption = onHoverOption || (() => {});
+    this.isSelecting = false;
   }
 
   render(choiceObj, isEndingReached, onProceedEpilogue, contextData = null) {
+    this.isSelecting = false;
     if (!choiceObj && !isEndingReached) {
       this.container.classList.add('hidden');
       this.container.innerHTML = '';
@@ -156,10 +158,27 @@ export class ChoiceMenu {
     // Attach listeners to option buttons
     const buttons = this.container.querySelectorAll('.choice-btn');
     buttons.forEach(btn => {
-      btn.addEventListener('mouseenter', () => this.onHoverOption());
+      btn.addEventListener('mouseenter', () => {
+        if (!this.isSelecting) this.onHoverOption();
+      });
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
+        if (this.isSelecting) return;
+        this.isSelecting = true;
+
+        // Immediately disable all buttons to prevent re-entrant or double clicks
+        buttons.forEach(b => {
+          b.disabled = true;
+          b.style.pointerEvents = 'none';
+          b.classList.add('opacity-75');
+        });
+        btn.classList.add('ring-2', 'ring-pink-400', 'scale-[0.98]');
+
         const key = btn.getAttribute('data-key');
+
+        // Immediately hide container so choice buttons do not linger or interfere with scene transition
+        this.container.classList.add('hidden');
+
         this.onSelectOption(key);
       });
     });

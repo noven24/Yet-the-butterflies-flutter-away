@@ -174,12 +174,8 @@ export class CharacterRenderer {
       return 'Aflania';
     }
 
-    if (sceneId === 'ending_a' || sceneId === 'ending_c' || sceneId === 'ending_d') {
+    if (sceneId === 'ending_a' || sceneId === 'ending_b' || sceneId === 'ending_c' || sceneId === 'ending_d') {
       return 'Aflania';
-    }
-
-    if (sceneId === 'ending_b') {
-      return 'Laqquo';
     }
 
     if (sceneId === 'ending_e') {

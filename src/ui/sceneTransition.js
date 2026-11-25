@@ -72,7 +72,8 @@ export class SceneTransition {
       </div>
     `;
 
-    // Make container visible and activate pointer events
+    // Make container visible and activate pointer events with smooth fade-in
+    this.container.style.transition = 'opacity 0.4s ease-in-out';
     this.container.style.pointerEvents = 'auto';
     this.container.style.opacity = '1';
     this.container.style.backgroundColor = '#030712'; // Deepest midnight black
@@ -84,19 +85,10 @@ export class SceneTransition {
       } catch (e) {}
     }
 
-    // Allow user to click to skip immediately
-    const skipPromise = new Promise(resolve => {
-      this.skipResolve = resolve;
-      const skipHandler = (e) => {
-        e.stopPropagation();
-        this.container.removeEventListener('click', skipHandler);
-        resolve();
-      };
-      this.container.addEventListener('click', skipHandler, { once: true });
-    });
+    // Step 1: Smooth fade to black (400ms) - graphics are swapped in pure black to prevent visual glitches
+    await new Promise(resolve => setTimeout(resolve, 400));
 
-    // Fade to black completes at ~450ms -> Call onMidpoint to swap scene graphics
-    await this._waitOrSkip(450, skipPromise);
+    // Midpoint: Swap scene components while screen is fully black
     if (onMidpoint) {
       try {
         onMidpoint();
@@ -105,14 +97,35 @@ export class SceneTransition {
       }
     }
 
-    // Keep title displayed on black screen so player can absorb the new act
-    await this._waitOrSkip(1300, skipPromise);
+    // Step 2: Display chapter title on black screen (1200ms max, with tap-to-skip)
+    // Attach click listener ONLY AFTER midpoint so choice button clicks never bleed through
+    await new Promise(resolve => {
+      let timer = null;
+      const skipHandler = (e) => {
+        if (e) e.stopPropagation();
+        if (timer) clearTimeout(timer);
+        this.container.removeEventListener('click', skipHandler);
+        resolve();
+      };
 
-    // Fade out to reveal new scene
+      timer = setTimeout(() => {
+        this.container.removeEventListener('click', skipHandler);
+        resolve();
+      }, 1200);
+
+      // 100ms debounce before attaching listener to guarantee pointerup/click isolation
+      setTimeout(() => {
+        this.container.addEventListener('click', skipHandler, { once: true });
+      }, 100);
+    });
+
+    // Step 3: Smooth fade out to reveal new scene (400ms)
+    this.container.style.transition = 'opacity 0.4s ease-out';
     this.container.style.opacity = '0';
     this.container.style.pointerEvents = 'none';
 
-    await this._waitOrSkip(500, skipPromise);
+    await new Promise(resolve => setTimeout(resolve, 400));
+
     this.isTransitioning = false;
     this.container.innerHTML = '';
     if (onComplete) {
