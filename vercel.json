@@ -1,6 +1,8 @@
 {
-  "version": 2,
-  "cleanUrls": true,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "cleanUrls": false,
   "headers": [
     {
       "source": "/(.*)",
@@ -30,4 +32,3 @@
     }
   ]
 }
-

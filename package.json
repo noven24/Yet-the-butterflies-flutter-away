@@ -2,10 +2,8 @@
   "name": "yet-the-butterflies-flutter-away",
   "version": "1.0.0",
   "description": "Interactive Web Visual Novel - Psychological Drama & DDLC-style Dark Fantasy",
-  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
     "dev": "node server.js",
     "test:story": "node scripts/verifyStoryData.js",
     "test:machine": "node scripts/testStateMachine.js"
