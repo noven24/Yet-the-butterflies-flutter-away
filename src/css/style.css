@@ -1,0 +1,944 @@
+/* Custom Styling & DDLC Psychological FX for "Yet the Butterflies Flutter Away" */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Comfortaa:wght@700;900&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap');
+
+:root {
+  --paranoia-level: 10%;
+  --abyss-color: rgba(30, 10, 45, 0.95);
+  --crimson-glitch: #ef4444;
+  --cyan-glitch: #06b6d4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #030712;
+  color: #f8fafc;
+  overflow: hidden;
+  width: 100vw;
+  height: 100dvh;
+}
+
+/* Titles and Headers */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+}
+
+.glass-panel-heavy {
+  background: rgba(10, 15, 30, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.85);
+}
+
+/* Dynamic Paranoia Vignette */
+#paranoiaVignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 20;
+  transition: opacity 0.6s ease, background 0.8s ease;
+  mix-blend-mode: multiply;
+}
+
+/* Glitch FX (DDLC Style) */
+.glitch-active {
+  animation: ddlc-screen-shake 0.22s infinite ease-in-out;
+}
+
+@keyframes ddlc-screen-shake {
+  0% { transform: translate(0, 0) scale(1); }
+  20% { transform: translate(-3px, 1.5px) scale(1.004); }
+  40% { transform: translate(2.5px, -1.5px) scale(0.998); }
+  60% { transform: translate(-2px, 2px) scale(1.002); }
+  80% { transform: translate(2px, -2px) scale(1.001); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+/* Chromatic Aberration Text (Red-Blue / Cyan Ghosting) */
+.text-glitch {
+  position: relative;
+  display: inline-block;
+  text-shadow: -2.5px 0 2px rgba(239, 68, 68, 0.85), 2.5px 0 2px rgba(6, 182, 212, 0.85), 0 0 10px rgba(239, 68, 68, 0.4);
+  animation: text-chromatic-twitch 0.4s infinite alternate ease-in-out;
+}
+
+@keyframes text-chromatic-twitch {
+  0% {
+    text-shadow: -2px 0 1px rgba(239, 68, 68, 0.9), 2px 0 1px rgba(6, 182, 212, 0.9);
+  }
+  50% {
+    text-shadow: -3.5px 0.5px 2px rgba(239, 68, 68, 1), 3px -0.5px 2px rgba(6, 182, 212, 1), 0 0 8px rgba(239, 68, 68, 0.5);
+  }
+  100% {
+    text-shadow: -1.5px -0.5px 1px rgba(239, 68, 68, 0.8), 2.5px 0.5px 1px rgba(6, 182, 212, 0.8);
+  }
+}
+
+.text-glitch::before,
+.text-glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.text-glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 var(--crimson-glitch);
+  animation: glitch-anim-1 2s infinite linear alternate-reverse;
+}
+
+.text-glitch::after {
+  left: -2px;
+  text-shadow: 2px 0 var(--cyan-glitch);
+  animation: glitch-anim-2 2s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim-1 {
+  0% { clip: rect(10px, 9999px, 35px, 0); }
+  25% { clip: rect(65px, 9999px, 80px, 0); }
+  50% { clip: rect(20px, 9999px, 45px, 0); }
+  75% { clip: rect(85px, 9999px, 100px, 0); }
+  100% { clip: rect(40px, 9999px, 60px, 0); }
+}
+
+@keyframes glitch-anim-2 {
+  0% { clip: rect(70px, 9999px, 90px, 0); }
+  25% { clip: rect(15px, 9999px, 30px, 0); }
+  50% { clip: rect(50px, 9999px, 65px, 0); }
+  75% { clip: rect(5px, 9999px, 25px, 0); }
+  100% { clip: rect(80px, 9999px, 95px, 0); }
+}
+
+/* Subtle Visual Distortions on Joan's Mind as Paranoia Rises */
+.paranoia-heavy {
+  filter: contrast(1.06) saturate(1.1);
+}
+
+.paranoia-extreme {
+  filter: contrast(1.12) saturate(1.22);
+  animation: paranoia-screen-breathe 4s infinite ease-in-out;
+}
+
+@keyframes paranoia-screen-breathe {
+  0%, 100% {
+    transform: scale(1);
+    filter: contrast(1.1) brightness(0.98);
+  }
+  50% {
+    transform: scale(1.006);
+    filter: contrast(1.15) brightness(0.94);
+  }
+}
+
+/* Sudden Paranoia Spike Screen Flash & Heartbeat Pulse */
+.paranoia-spike {
+  animation: paranoia-throb 0.45s ease-out;
+}
+
+@keyframes paranoia-throb {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  25% {
+    transform: scale(1.012);
+    filter: brightness(1.2) contrast(1.2) drop-shadow(0 0 25px rgba(220, 38, 38, 0.4));
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+/* Destructive Choice Button (Choice 4 Option D):
+   Animasi bergetar (shake) & aura merah gelap */
+.destructive-choice {
+  background: radial-gradient(circle, rgba(127, 29, 29, 0.95) 0%, rgba(69, 10, 10, 0.98) 100%) !important;
+  color: #fee2e2 !important;
+  border: 2px solid #ef4444 !important;
+  box-shadow: 0 0 25px rgba(220, 38, 38, 0.85), 0 0 50px rgba(153, 27, 27, 0.65), inset 0 0 15px rgba(239, 68, 68, 0.4) !important;
+  animation: destructive-shake 0.28s infinite ease-in-out, destructive-aura-pulse 1.4s infinite ease-in-out !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.destructive-choice:hover {
+  background: radial-gradient(circle, rgba(185, 28, 28, 1) 0%, rgba(127, 29, 29, 1) 100%) !important;
+  border-color: #fca5a5 !important;
+  box-shadow: 0 0 35px rgba(239, 68, 68, 1), 0 0 70px rgba(185, 28, 28, 0.8), inset 0 0 20px rgba(254, 202, 202, 0.5) !important;
+}
+
+@keyframes destructive-shake {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-2px, 1.5px) rotate(-0.5deg); }
+  40% { transform: translate(2px, -1.5px) rotate(0.5deg); }
+  60% { transform: translate(-1.5px, -1px) rotate(-0.3deg); }
+  80% { transform: translate(1.5px, 1px) rotate(0.3deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes destructive-aura-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.75), 0 0 45px rgba(153, 27, 27, 0.55), inset 0 0 12px rgba(239, 68, 68, 0.35);
+    border-color: rgba(239, 68, 68, 0.85);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(239, 68, 68, 1), 0 0 70px rgba(185, 28, 28, 0.75), inset 0 0 22px rgba(254, 202, 202, 0.35);
+    border-color: rgba(254, 202, 202, 1);
+  }
+}
+
+/* Main Menu Container Layer (Above in-game layers z-0..30, below interactive modals z-60) */
+#mainMenuContainer {
+  z-index: 45;
+}
+
+/* Interactive Modal Containers Layer (Strictly top-level across title screen and gameplay) */
+#itemModalContainer,
+#historyModalContainer,
+#saveLoadModalContainer,
+#optionsModalContainer,
+#endingModalContainer,
+#endingsGalleryModalContainer {
+  z-index: 60 !important;
+}
+
+#creditsModalContainer {
+  z-index: 65 !important;
+}
+
+/* Clean Theatrical Film Credits Scrollbar Hide */
+.film-credits-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.film-credits-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Butterfly Particle Canvas */
+#particleCanvas {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 15;
+}
+
+/* Character Sprite Container - Stable positioning without transform fighting */
+.sprite-speaker {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.25)) brightness(1.05);
+  opacity: 1;
+  transition: filter 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s ease;
+  z-index: 10;
+}
+
+.sprite-listener {
+  filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.6)) brightness(0.72) contrast(0.95);
+  opacity: 0.88;
+  transition: filter 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s ease;
+  z-index: 5;
+}
+
+/* Subtle Idle Breathing Animation */
+.ddlc-breathe {
+  animation: ddlc-idle-breath 4.2s ease-in-out infinite;
+}
+
+@keyframes ddlc-idle-breath {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+/* DDLC Theme Typography & Navigation Buttons */
+.font-ddlc {
+  font-family: 'Comfortaa', 'Nunito', 'Segoe UI', cursive, sans-serif;
+}
+
+.ddlc-title-btn {
+  font-family: 'Comfortaa', 'Nunito', 'Segoe UI', cursive, sans-serif;
+  font-weight: 900;
+  color: #b54275;
+  text-shadow: 
+    2px 2px 0 #ffffff,
+    -2px -2px 0 #ffffff,
+    2px -2px 0 #ffffff,
+    -2px 2px 0 #ffffff,
+    0 2px 5px rgba(181, 66, 117, 0.25);
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  background: rgba(255, 238, 246, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 182, 193, 0.7);
+  border-radius: 9999px;
+  padding: 0.25rem 1.15rem;
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.35);
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.ddlc-title-btn:hover {
+  transform: translateX(10px) scale(1.04);
+  color: #d6226c;
+  background: #ffffff;
+  border-color: #f472b6;
+  box-shadow: 0 6px 20px rgba(236, 72, 153, 0.45), 0 0 15px rgba(244, 114, 182, 0.3);
+}
+
+.ddlc-title-btn:active {
+  transform: translateX(6px) scale(0.98);
+}
+
+/* Height-based media queries to guarantee zero cutoff on laptops, 720p, 768p and tablets */
+@media (max-height: 760px) {
+  .ddlc-title-btn {
+    padding: 0.2rem 0.95rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-height: 640px) {
+  .ddlc-title-btn {
+    padding: 0.15rem 0.8rem !important;
+    font-size: 0.875rem !important;
+  }
+}
+
+/* Joan Main Menu Title Screen Animation */
+.joan-title-sprite {
+  animation: joan-hero-float 5.2s ease-in-out infinite, joan-aura-glow 4.5s ease-in-out infinite alternate;
+  transform-origin: bottom center;
+  filter: drop-shadow(0 15px 30px rgba(181, 66, 117, 0.3)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.6));
+}
+
+@keyframes joan-hero-float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.012);
+  }
+}
+
+@keyframes joan-aura-glow {
+  0% {
+    filter: drop-shadow(0 15px 30px rgba(181, 66, 117, 0.25)) drop-shadow(0 0 18px rgba(255, 255, 255, 0.5));
+  }
+  100% {
+    filter: drop-shadow(0 20px 45px rgba(244, 114, 182, 0.45)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.85));
+  }
+}
+
+/* Jumpscare Camera Zoom-In (like t=45s in gameplay video) */
+.camera-zoom-glitch {
+  transform: scale(1.18) !important;
+  filter: contrast(1.25) brightness(1.1) !important;
+  transition: transform 0.08s cubic-bezier(0.1, 0.9, 0.2, 1) !important;
+}
+
+/* Firmly anchor the Dialogue & Choice Stage at the bottom of the viewport */
+#bottomStage {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+  max-width: 64rem !important;
+  z-index: 30 !important;
+  pointer-events: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+#dialogueContainer {
+  width: 100% !important;
+  margin-top: auto !important;
+  pointer-events: auto !important;
+}
+
+/* Authentic DDLC Textbox & Namebox */
+.ddlc-textbox {
+  background-image: url('../../asset/GUI/textbox.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.75);
+}
+
+.ddlc-textbox.glitch-textbox {
+  background-image: url('../../asset/GUI/textbox_monika.png') !important;
+  animation: ddlc-textbox-glitch 0.25s infinite ease-in-out;
+}
+
+@keyframes ddlc-textbox-glitch {
+  0% { filter: hue-rotate(0deg) saturate(1.2); }
+  50% { filter: hue-rotate(75deg) saturate(2.5) contrast(1.3); }
+  100% { filter: hue-rotate(0deg) saturate(1.2); }
+}
+
+.ddlc-namebox {
+  background-image: url('../../asset/GUI/namebox.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 28px;
+  min-width: 140px;
+  height: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #2b1408, -1px -1px 2px #2b1408, 1px -1px 2px #2b1408, -1px 1px 2px #2b1408;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* DDLC Quick Menu Buttons (History, Skip, Auto, Save, Load, Settings) */
+.ddlc-quick-btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fed7aa;
+  text-shadow: 1px 1px 2px rgba(35, 15, 5, 0.95);
+  transition: all 0.15s ease-in-out;
+  padding: 3px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ddlc-quick-btn:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.22);
+  transform: translateY(-1px);
+}
+
+.ddlc-quick-btn:active {
+  transform: translateY(1px);
+}
+
+.ddlc-quick-btn.active {
+  color: #ffffff;
+  background: rgba(180, 83, 9, 0.7);
+  box-shadow: 0 0 12px rgba(217, 119, 6, 0.85);
+}
+
+/* DDLC Choice Button Styling */
+.ddlc-choice-button {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(254, 240, 245, 0.92) 100%);
+  color: #581c4c;
+  border: 2px solid #f472b6;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ddlc-choice-button:hover {
+  background: linear-gradient(180deg, #fbcfe8 0%, #f472b6 100%);
+  color: #ffffff;
+  border-color: #ec4899;
+  transform: translateY(-2px) scale(1.015);
+  box-shadow: 0 8px 25px rgba(236, 72, 153, 0.5);
+}
+
+/* DDLC Toast Notification */
+.ddlc-toast {
+  background-image: url('../../asset/GUI/notify.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 24px;
+  min-width: 220px;
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-size: 13px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+}
+
+/* Safe area padding utilities for iOS Notch, Dynamic Island, and Android gesture bars */
+.pt-safe {
+  padding-top: max(0.5rem, env(safe-area-inset-top));
+}
+.pb-safe {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
+.pl-safe {
+  padding-left: max(0.5rem, env(safe-area-inset-left));
+}
+.pr-safe {
+  padding-right: max(0.5rem, env(safe-area-inset-right));
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 640px) {
+  .dialogue-box-mobile {
+    min-height: 125px;
+  }
+  .ddlc-textbox {
+    border-radius: 14px;
+  }
+  .ddlc-namebox {
+    min-width: 105px;
+    height: 36px;
+    padding: 3px 18px;
+    font-size: 12px;
+  }
+  .ddlc-quick-btn {
+    font-size: 10.5px;
+    padding: 2px 5px;
+    gap: 2px;
+  }
+  .cinders-choice-btn {
+    min-height: 44px;
+    padding: 6px 10px;
+  }
+  .ddlc-title-btn {
+    padding: 0.2rem 0.95rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Very Small Mobile Screens (<= 380px, e.g. iPhone SE, compact Androids) */
+@media (max-width: 380px) {
+  .ddlc-quick-btn {
+    font-size: 9.5px;
+    padding: 1px 3.5px;
+  }
+  .ddlc-namebox {
+    min-width: 90px;
+    height: 32px;
+    padding: 2px 12px;
+    font-size: 11px;
+  }
+}
+
+/* Mobile Landscape & Short Screens (max-height: 520px) */
+@media (max-height: 520px) and (orientation: landscape) {
+  #bottomStage {
+    max-width: 94vw !important;
+    padding-bottom: max(0.25rem, env(safe-area-inset-bottom)) !important;
+  }
+  .ddlc-textbox {
+    min-height: 95px !important;
+    padding-top: 0.4rem !important;
+    padding-bottom: 1.6rem !important;
+  }
+  #dialogueText {
+    font-size: 0.85rem !important;
+    line-height: 1.35 !important;
+  }
+  #quickMenuBar {
+    bottom: 0.2rem !important;
+  }
+  .ddlc-namebox {
+    height: 28px !important;
+    min-width: 90px !important;
+    top: -1.15rem !important;
+    font-size: 11px !important;
+    padding: 2px 14px !important;
+  }
+}
+
+/* Tablets (641px - 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #bottomStage {
+    max-width: 92vw !important;
+  }
+  .ddlc-textbox {
+    min-height: 135px;
+  }
+}
+
+/* Large Screens & Ultra-wide (min-width: 1440px) */
+@media (min-width: 1440px) {
+  #bottomStage {
+    max-width: 68rem !important;
+  }
+  .ddlc-textbox {
+    min-height: 150px;
+    padding-left: 2.75rem !important;
+    padding-right: 2.75rem !important;
+  }
+  #dialogueText {
+    font-size: 1.25rem !important;
+    line-height: 1.7 !important;
+  }
+  .char-center {
+    max-width: 48vw !important;
+  }
+}
+
+/* Custom Scrollbar for History Log */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}
+
+/* CTC Blinking Indicator */
+@keyframes ctc-bounce {
+  0%, 100% { transform: translateY(0); opacity: 0.95; }
+  50% { transform: translateY(-5px); opacity: 0.35; }
+}
+
+.ctc-indicator {
+  animation: ctc-bounce 1.1s infinite ease-in-out;
+}
+
+/* =========================================================
+   DRAMATIC ENDING SCREEN & TRANSITION TO EPILOGUE (DDLC THEME)
+   ========================================================= */
+
+.ending-screen-overlay {
+  background: radial-gradient(circle at center, rgba(15, 23, 42, 0.92) 0%, rgba(7, 10, 22, 0.98) 70%, rgba(2, 4, 10, 1) 100%);
+  animation: ending-fade-in 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes ending-fade-in {
+  0% {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    transform: scale(0.97);
+  }
+  100% {
+    opacity: 1;
+    backdrop-filter: blur(24px);
+    transform: scale(1);
+  }
+}
+
+.ending-card-reveal {
+  animation: ending-card-slide-up 0.9s cubic-bezier(0.2, 0.9, 0.3, 1) 0.2s both;
+}
+
+@keyframes ending-card-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.ending-title-cinematic {
+  text-shadow: 0 0 25px rgba(244, 114, 182, 0.6), 0 0 50px rgba(168, 85, 247, 0.4), 0 4px 12px rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.12em;
+}
+
+.ending-tagline-glow {
+  text-shadow: 0 0 15px rgba(251, 207, 232, 0.8), 0 2px 6px rgba(0, 0, 0, 0.85);
+}
+
+.ending-continue-btn {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.25) 0%, rgba(168, 85, 247, 0.3) 100%);
+  border: 1.5px solid rgba(244, 114, 182, 0.6);
+  box-shadow: 0 10px 30px -5px rgba(236, 72, 153, 0.4), inset 0 0 20px rgba(236, 72, 153, 0.2);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.ending-continue-btn:hover {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.85) 0%, rgba(168, 85, 247, 0.9) 100%);
+  border-color: #ffffff;
+  color: #ffffff;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 18px 45px -5px rgba(236, 72, 153, 0.7), inset 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+.ending-continue-btn:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+/* =========================================================
+   CINDERS-STYLE POV & HORIZONTAL CHOICE SYSTEM
+   ========================================================= */
+
+.cinders-prompt-bar {
+  background: linear-gradient(90deg, rgba(15, 23, 42, 0.4) 0%, rgba(30, 12, 38, 0.95) 15%, rgba(30, 12, 38, 0.95) 85%, rgba(15, 23, 42, 0.4) 100%);
+  border-top: 1px solid rgba(244, 114, 182, 0.6);
+  border-bottom: 1px solid rgba(244, 114, 182, 0.6);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.85), 0 0 15px rgba(244, 114, 182, 0.25);
+}
+
+.cinders-choice-btn {
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.9) 0%, rgba(24, 14, 34, 0.96) 100%);
+  border: 1px solid rgba(244, 114, 182, 0.35);
+  color: #f1f5f9;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cinders-choice-btn:hover {
+  background: linear-gradient(180deg, rgba(74, 21, 75, 0.9) 0%, rgba(45, 12, 55, 0.98) 100%);
+  border-color: rgba(244, 114, 182, 0.9);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.85), 0 0 20px rgba(244, 114, 182, 0.45);
+}
+
+.cinders-choice-btn:active {
+  transform: translateY(1px);
+}
+
+.destructive-choice {
+  animation: destructive-pulse 1.6s infinite alternate ease-in-out;
+}
+
+@keyframes destructive-pulse {
+  0% {
+    box-shadow: 0 0 12px rgba(220, 38, 38, 0.6), inset 0 0 8px rgba(220, 38, 38, 0.3);
+    border-color: rgba(239, 68, 68, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.95), inset 0 0 16px rgba(239, 68, 68, 0.5);
+    border-color: rgba(254, 202, 202, 1);
+    transform: scale(1.015);
+  }
+}
+
+/* =========================================================
+   FIRST-PERSON POV BUST-UP CHARACTER FRAMING (LIKE CINDERS)
+   Characters are framed chest-up / portrait style in the exact center
+   ========================================================= */
+
+/* Base Desktop & Widescreen (min-width: 1025px) */
+.char-center {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  height: 116dvh !important;
+  bottom: -24dvh !important;
+  max-width: 50vw !important;
+  transform-origin: bottom center;
+}
+
+.char-left {
+  left: 26% !important;
+  transform: translateX(-50%) !important;
+  height: 116dvh !important;
+  bottom: -24dvh !important;
+  transform-origin: bottom center;
+}
+
+.char-right {
+  left: 74% !important;
+  transform: translateX(-50%) !important;
+  height: 116dvh !important;
+  bottom: -24dvh !important;
+  transform-origin: bottom center;
+}
+
+/* Tablets (641px - 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .char-center {
+    height: 96dvh !important;
+    bottom: -8dvh !important;
+    max-width: 75vw !important;
+  }
+  .char-left {
+    height: 96dvh !important;
+    bottom: -8dvh !important;
+    max-width: 75vw !important;
+  }
+  .char-right {
+    height: 96dvh !important;
+    bottom: -8dvh !important;
+    max-width: 75vw !important;
+  }
+}
+
+/* Mobile Devices (HP / Smartphones in Portrait Mode) */
+@media (max-width: 767px) and (orientation: portrait), (max-width: 640px) {
+  .char-center {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    height: 76dvh !important;
+    bottom: 2dvh !important;
+    max-width: 125vw !important;
+  }
+  .char-left {
+    left: 28% !important;
+    transform: translateX(-50%) !important;
+    height: 76dvh !important;
+    bottom: 2dvh !important;
+    max-width: 125vw !important;
+  }
+  .char-right {
+    left: 72% !important;
+    transform: translateX(-50%) !important;
+    height: 76dvh !important;
+    bottom: 2dvh !important;
+    max-width: 125vw !important;
+  }
+}
+
+/* Mobile Devices in Landscape Mode & Short Screens (max-height: 520px) */
+@media (max-height: 520px) and (orientation: landscape) {
+  .char-center {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    height: 125dvh !important;
+    bottom: -32dvh !important;
+    max-width: 60vw !important;
+  }
+  .char-left {
+    left: 26% !important;
+    transform: translateX(-50%) !important;
+    height: 125dvh !important;
+    bottom: -32dvh !important;
+  }
+  .char-right {
+    left: 74% !important;
+    transform: translateX(-50%) !important;
+    height: 125dvh !important;
+    bottom: -32dvh !important;
+  }
+}
+
+@keyframes ddlc-idle-breath-center {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -4px);
+  }
+}
+
+.char-center.ddlc-breathe {
+  animation: ddlc-idle-breath-center 4.2s ease-in-out infinite !important;
+}
+
+@keyframes ddlc-idle-breath-left {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -4px);
+  }
+}
+
+.char-left.ddlc-breathe {
+  animation: ddlc-idle-breath-left 4.2s ease-in-out infinite !important;
+}
+
+@keyframes ddlc-idle-breath-right {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -4px);
+  }
+}
+
+.char-right.ddlc-breathe {
+  animation: ddlc-idle-breath-right 4.2s ease-in-out infinite !important;
+}
+
+/* Prompt Bubble at the very bottom */
+.cinders-prompt-bubble {
+  background: linear-gradient(90deg, rgba(15, 23, 42, 0.95) 0%, rgba(32, 12, 40, 0.98) 15%, rgba(32, 12, 40, 0.98) 85%, rgba(15, 23, 42, 0.95) 100%);
+  border: 1px solid rgba(244, 114, 182, 0.5);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.85), 0 0 15px rgba(244, 114, 182, 0.25);
+}
+
+/* =========================================================
+   CHOICE MODE SLEEK DIALOGUE CONTEXT (CINDERS AESTHETIC)
+   ========================================================= */
+
+.choice-mode-card {
+  background-image: none !important;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.85) 0%, rgba(26, 12, 34, 0.92) 100%) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(244, 114, 182, 0.45) !important;
+  border-radius: 1.25rem !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.85), inset 0 0 15px rgba(244, 114, 182, 0.1) !important;
+  min-height: auto !important;
+  padding-top: 0.65rem !important;
+  padding-bottom: 0.65rem !important;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+}
+
+.choice-mode-card #dialogueText {
+  font-family: 'Playfair Display', serif !important;
+  font-style: italic !important;
+  font-size: 0.875rem !important;
+  line-height: 1.4 !important;
+  color: #fce7f3 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9) !important;
+}
+
+@media (min-width: 768px) {
+  .choice-mode-card #dialogueText {
+    font-size: 1rem !important;
+  }
+}
+
+.choice-mode-card #quickMenuBar,
+.choice-mode-card #ctcIndicator {
+  display: none !important;
+}
+
+.choice-mode-card #nameboxContainer {
+  top: -1.75rem !important;
+}
+
+
+

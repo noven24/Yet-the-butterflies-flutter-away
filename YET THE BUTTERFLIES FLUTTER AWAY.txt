@@ -1,0 +1,270 @@
+YET THE BUTTERFLIES FLUTTER AWAY
+Genre: Psychological drama, tragedy, dark fantasy, alternate history
+Setting: 
+Main Characters: Joan, Aflania, Laqquo, Cassian, Emilia
+PROLOGUE: A WHISPER IN THE DARK
+The war against the Abyss had ended, and the kingdom celebrated its victory. Soldiers drank in the streets, bells rang across the capital, and the people praised General Joan for defending their homeland.
+Yet, behind the celebration, another battle had begun.
+
+Joan sat alone on the rooftop of his residence, watching the moonlight spread across the city. He had survived countless battles against the Abyss, faced enemies who wished him dead, and earned the respect of people who had once doubted him. Still, he feared losing the woman he loved.
+Aflania had married him despite her family's objections. Their love had survived prejudice, distance, and the expectations of others. To Joan, she was more than his wife. She was the one person before whom he did not have to be a general.
+A man climbed onto the rooftop and stood beside him.
+Laqquo: “You seem troubled, General. The victory should bring us some peace.”
+Joan: “The victory brings peace to the kingdom. It does not promise peace to the mind.”
+Laqquo: “And what occupies your mind tonight?”
+Joan: “My future. The woman I love. The things a man might lose without realizing they are slipping away.”
+Laqquo: “You should never place your love too deeply in someone.”
+Joan: “Why?”
+Laqquo: “The deeper the love, the greater the betrayal.”
+Joan: “You speak as though betrayal were inevitable.”
+Laqquo: “Not inevitable. Merely possible.”
+Joan: “Everything is possible, Laqquo. That does not mean everything deserves to be feared.”
+Laqquo: “Forgive me, General. I speak only because I care for your happiness.”
+Joan: “Then care for it by giving me no reason to doubt those I love.”
+Laqquo lowered his head, hiding a faint smile. Joan had not accepted the insinuation, but the idea had been planted.
+Joan remained on the rooftop. For a moment, he considered telling Aflania about the conversation. Then he dismissed the thought. There was no evidence of wrongdoing, and he refused to let another man's suspicion become a shadow over his marriage.
+He returned to his room, where Aflania was reading beside the window.
+Aflania: “You look as though you have been arguing with the moon.”
+Joan: “The moon has nothing on you, my love.”
+Aflania: “Then tell me what troubles you.”
+Joan hesitated. He could tell her about Laqquo's words, dismiss them as meaningless, or keep the matter to himself. For the first time that evening, he understood that what he did next might matter more than anything Laqquo had said.
+CHOICE 1: HOW WILL JOAN RESPOND?
+A. Tell Aflania everything. Go to Scene 1A.
+B. Dismiss the conversation and spend the evening with Aflania. Go to Scene 1B.
+C. Ask Aflania whether she has noticed anything unusual about Laqquo. Go to Scene 1C.
+SCENE 1A: THE FIRST CONVERSATION
+Joan sat beside Aflania and told her everything Laqquo had said. She listened without interrupting.
+Aflania: “And what do you believe?”
+Joan: “I believe Laqquo wants me to fear something I have no reason to fear.”
+Aflania: “Then why does it trouble you?”
+Joan: “Because he is my comrade. I have trusted him with my life.”
+Aflania: “Trusting someone with your life does not mean surrendering your judgment to them.”
+Joan: “You think he intends to harm us?”
+Aflania: “I do not know. But someone who truly wishes to protect you should be able to explain his concerns without asking you to condemn someone else.”
+Joan: “You are right. I will speak with him tomorrow.”
+Aflania: “And until then?”
+Joan: “I will not let an unproven accusation change what I know of you.”
+For that evening, they were at peace.
+The following morning, Laqquo approached Joan with a new story: Cassian, a young officer, had been seen speaking privately with Aflania near the courtyard. Their conversation had concerned aid for families affected by the war, but Laqquo offered no such explanation.
+Joan: “You told me you had no proof. Has that changed?”
+Laqquo: “I witnessed nothing improper myself. I merely thought you ought to know.”
+Joan: “Then you know nothing more than I do.”
+Joan: “If you have a concern, present the facts. Do not ask me to build a conviction from your imagination.”
+CHOICE 2A: WHAT SHOULD JOAN DO NEXT?
+A. Speak to Cassian directly. Go to Scene 2A.
+B. Ask Emilia whether Laqquo has been behaving strangely. Go to Scene 2B.
+C. Confront Laqquo about his repeated insinuations. Go to Scene 2C.
+SCENE 1B: THE EVENING OF PEACE
+Joan decided not to burden Aflania with Laqquo's suspicions. He put aside his worries and joined her by the window.
+Aflania: “You have been unusually quiet.”
+Joan: “Must a man always have a reason for silence?”
+Aflania: “No. But I know the difference between peaceful silence and troubled silence.”
+Joan: “You know me too well.”
+Aflania: “I married you, Joan. I intended to learn.”
+They spoke of the future they hoped to share: returning to the capital when the kingdom had recovered, and one day leaving military life behind. For a time, Joan remembered the life they had promised each other.
+The next morning, Laqquo approached him with a more direct insinuation.
+Laqquo: “I have tried to remain silent, General. But I fear you mistake my caution for indifference.”
+Joan: “Then be clear.”
+Laqquo: “Cassian has grown familiar with Aflania. Their conversations are frequent, and she seems eager for his company.”
+Joan: “Cassian is an officer. Aflania cares about the people of this kingdom. They have every reason to speak.”
+Laqquo: “Of course. Perhaps I am mistaken.”
+Joan: “Perhaps you are.”
+For the first time, Joan wondered whether Laqquo wanted to protect him or simply wanted him to believe danger existed.
+CHOICE 2B: HOW WILL JOAN PROCEED?
+A. Observe Cassian and Aflania without drawing conclusions. Go to Scene 2A.
+B. Confront Laqquo about his repeated insinuations. Go to Scene 2C.
+C. Discuss the situation openly with Aflania. Return to Scene 1A and continue with Scene 2B.
+SCENE 1C: THE QUESTION OF LAQQUO
+Joan: “Have you noticed anything unusual about Laqquo?”
+Aflania: “Unusual in what way?”
+Joan: “His manner. His words. The way he speaks of other people.”
+Aflania: “He is observant, but I have sometimes wondered why he seems so interested in the private affairs of others.”
+Joan: “Have you ever given him reason to distrust you?”
+Aflania: “No. Why would you ask me that?”
+Joan: “I am sorry. I should not have phrased it that way. I have no accusation against you.”
+Aflania: “Then let us be careful about the questions we ask each other. Suspicion can wound even when it is not spoken as an accusation.”
+The following day, Joan spoke with Emilia, Laqquo's wife.
+Joan: “Laqquo has repeatedly suggested that Cassian and Aflania are too familiar.”
+Emilia: “Has he?”
+Joan: “Do you believe he would deliberately deceive me?”
+Emilia: “I believe he is capable of doing harm when he thinks he has been wronged. Whether he would deceive you is something I cannot yet prove.”
+CHOICE 2C: THE NEXT STEP
+A. Ask Emilia to help discover what Laqquo is planning. Go to Scene 2B.
+B. Confront Laqquo openly and demand an explanation. Go to Scene 2C.
+C. Bring Aflania, Cassian, and Laqquo together to discuss the accusations. Go to Scene 3.
+SCENE 2A: CASSIAN'S ANSWER
+Joan found Cassian in the courtyard, reviewing reports about the families affected by the war.
+Joan: “Laqquo tells me that you have been spending considerable time with Aflania.”
+Cassian: “I have spoken with her, yes. She asked about the condition of the soldiers and the people of the kingdom.”
+Joan: “Have you ever spoken to her in secret?”
+Cassian: “Not with any intention of concealing our conversations. There have been private discussions, but nothing improper.”
+Joan: “You understand why I must ask?”
+Cassian: “I understand your concern for your marriage. But an innocent man may be injured by an accusation even when it is made quietly.”
+Joan: “You are right. I will not punish you for a conversation.”
+Later that afternoon, a servant brought Joan a small silver butterfly brooch. It was the keepsake he had given Aflania on their wedding day.
+Joan: “Where did you find this?”
+Servant: “Near the western corridor, my lord.”
+Joan recognized it immediately. Aflania might have dropped it. Someone might have picked it up. Or someone might have deliberately placed it where it would be discovered. The brooch proved nothing beyond its own presence, yet Joan knew Laqquo would try to make it mean more.
+CHOICE 3A: WHAT DOES JOAN DO WITH THE BROOCH?
+A. Return it to Aflania and ask how she lost it. Go to Scene 3B.
+B. Ask the servant who else had access to the corridor. Go to Scene 3C.
+C. Show the brooch to Laqquo and observe his reaction. Go to Scene 3D.
+SCENE 2B: EMILIA'S SECRET
+Emilia: “I must tell you something, General. But I do not wish to accuse my husband without understanding what he has done.”
+Joan: “I ask for the truth, not a conviction.”
+Emilia: “Several days ago, Laqquo asked me to obtain Aflania's butterfly brooch. I gave it to him because he was my husband.”
+Joan: “Did he tell you what he intended to do with it?”
+Emilia: “No. I cannot tell you what happened after I gave it to him.”
+Joan: “You have done the right thing by telling me. I will ask questions before I make accusations. That is what I should have done from the beginning.”
+CHOICE 3B: HOW WILL JOAN USE THIS INFORMATION?
+A. Confront Laqquo with Emilia's testimony. Go to Scene 4A.
+B. Speak to Aflania and explain everything he has learned. Go to Scene 3B.
+C. Investigate the brooch's movements before confronting anyone. Go to Scene 3C.
+SCENE 2C: THE LIEUTENANT'S WARNING
+Joan: “Your concerns about Aflania have become a pattern.”
+Laqquo: “I am attempting to protect you.”
+Joan: “From what, precisely?”
+Laqquo: “From humiliation.”
+Joan: “You speak of humiliation as though it has already occurred. What evidence do you possess?”
+Laqquo: “I have observed their familiarity.”
+Joan: “That is an observation. Your accusation is something else.”
+Laqquo: “You would rather believe them than me?”
+Joan: “I would rather establish the truth than choose a side before I know it.”
+Laqquo: “You have changed, General.”
+Joan: “Perhaps I have begun to ask better questions.”
+CHOICE 3C: THE CONFRONTATION
+A. Summon Aflania and Cassian to establish the facts together. Go to Scene 3.
+B. Ask Emilia to reveal everything she knows about Laqquo. Go to Scene 2B.
+C. Give Laqquo one final opportunity to produce genuine evidence. Go to Scene 4A.
+SCENE 3: THREE PEOPLE, ONE ACCUSATION
+Joan arranged a meeting in the main hall. Aflania arrived first, followed by Cassian. Laqquo entered last.
+Joan: “I have called you here because a serious accusation has been made, and I will not allow it to grow in secret.”
+Aflania: “An accusation against whom?”
+Joan: “Against our marriage. Laqquo has suggested that your relationship with Cassian is improper. He has also implied that the butterfly brooch is connected to this accusation.”
+Aflania: “You suspected me?”
+Joan: “I have questioned what I was told. I have not decided that you are guilty.”
+Aflania: “Then let me speak. I have treated Cassian as your friend and officer. I have never been unfaithful to my husband. If you possess evidence, present it. If you do not, stop using my name to feed your suspicions.”
+Cassian: “I have served this general faithfully. I will not confess to a betrayal I have not committed.”
+Laqquo: “You see how easily they defend one another.”
+Joan: “And you see how easily you mistake a defence against an accusation for proof of guilt.”
+Joan: “Did you witness Aflania commit adultery?”
+Laqquo: “No.”
+Joan: “Did Cassian confess to such an act?”
+Laqquo: “No.”
+Joan: “Then what, exactly, are you asking me to believe?”
+CHOICE 4: THE DECISION
+A. Believe Aflania and suspend Laqquo from his duties pending an investigation. Go to Ending A: The Truth Exposed.
+B. Forgive Laqquo's suspicions but warn him never to repeat them without evidence. Go to Ending B: A Fragile Peace.
+C. Remain uncertain and continue investigating privately. Go to Scene 4B.
+D. Allow anger to overcome reason and accuse Aflania publicly. Go to Ending C: The Marriage Destroyed.
+SCENE 3B: THE BROOCH RETURNED
+Joan returns the butterfly brooch to Aflania and explains what Emilia has revealed. Aflania confirms that she did not give the brooch to Cassian. Joan now has reason to suspect Laqquo's interference, but must decide how to act.
+Aflania: “I am glad you came to me. I only wish you had done so before allowing this doubt to grow.”
+Joan: “I am beginning to understand how much damage a question can do when I already fear its answer.”
+Aflania: “Then do not ask me to carry the burden of a fear I did not create.”
+Continue to Scene 3 or Scene 4A, depending on the investigation route.
+SCENE 3C: THE SERVANT'S ACCOUNT
+Joan questions the servant and learns that several people could have passed through the western corridor. The location of the brooch cannot establish who placed it there. Joan must seek further testimony.
+Joan: “So the brooch proves nothing about Aflania.”
+Servant: “Only that it was found there, my lord.”
+Joan: “Then I must not make it say more than it can.”
+Continue to Scene 3 or Scene 4A.
+SCENE 3D: LAQQUO'S REACTION
+Joan: “Do you recognize this?”
+Laqquo: “It belongs to Aflania, does it not?”
+Joan: “You answered quickly.”
+Laqquo: “Everyone knows she wears it.”
+Joan: “Knowing what it is does not explain how it came to the corridor.”
+Laqquo: “Then perhaps you should ask your wife.”
+Laqquo's reaction deepens Joan's suspicion of him, but it is not proof on its own. Joan must decide whether to confront him or gather more testimony.
+SCENE 4A: THE BUTTERFLY REVEALED
+Joan confronts Laqquo with Emilia present.
+Joan: “Emilia tells me that you asked her to obtain Aflania's butterfly brooch.”
+Laqquo: “You have betrayed me.”
+Emilia: “No. I have stopped protecting your secrets.”
+Joan: “Why did you want it?”
+Laqquo: “You were always praised. Your victories, your marriage, your position. Everyone looked at you as though you were extraordinary. I was expected to serve and remain grateful.”
+Joan: “So you decided to destroy what I loved?”
+Laqquo: “I decided to show you that even a great man can be made a fool.”
+Emilia: “Do not let him turn this into another contest of pride. He wants you to lose control.”
+Joan: “You will answer to the authorities. Your actions will be examined, and the truth will be made public.”
+Laqquo is arrested. Witnesses are questioned, and Cassian is cleared. Aflania's innocence is established. But the damage to Joan and Aflania's relationship cannot be undone simply by exposing a lie.
+CHOICE 5: WHAT DOES JOAN DO AFTER LAQQUO'S ARREST?
+A. Apologize to Aflania and work to rebuild their marriage. Go to Ending A: The Truth Exposed.
+B. Offer Aflania the freedom to leave if she no longer feels safe. Go to Ending D: The Price of Forgiveness.
+C. Focus on his duties and assume that the truth will repair everything. Go to Ending E: The Unfinished Apology.
+SCENE 4B: THE LAST TEST
+Aflania: “You have been avoiding me.”
+Joan: “I have been occupied.”
+Aflania: “With Laqquo?”
+Joan: “With the truth.”
+Aflania: “And where do I stand while you search for it?”
+Joan: “I have not accused you.”
+Aflania: “Not in words. But you have allowed another man's accusation to decide how you look at me.”
+Aflania: “I love you, Joan. But I cannot carry the burden of every fear you refuse to confront.”
+Aflania leaves the chamber. Joan must choose what to do next.
+CHOICE 6: THE FINAL DECISION
+A. Go to Aflania and acknowledge the harm his suspicion has caused. Go to Ending A: The Truth Exposed.
+B. Tell Aflania she must wait until he feels certain. Go to Ending D: The Price of Forgiveness.
+C. Abandon the investigation and return to the marriage without discussing what happened. Go to Ending E: The Unfinished Apology.
+ENDING A: THE TRUTH EXPOSED
+Joan finds Aflania in the garden beneath an olive tree. She is holding the butterfly brooch.
+Joan: “Laqquo has been arrested. Emilia's testimony helped establish how he manipulated the situation. Cassian has been cleared.”
+Aflania: “I am glad the truth is known.”
+Joan: “I am sorry that I allowed another man's words to change the way I treated you. I am sorry that I made you defend your loyalty when you had given me no reason to doubt it.”
+Aflania: “You cannot promise that you will never feel jealous again.”
+Joan: “No. But I can promise that I will not treat jealousy as evidence. I will ask questions, listen to your answers, and take responsibility for my fears.”
+Aflania: “I want to believe you.”
+Joan: “Then I will give you time to decide whether I deserve that belief.”
+She reaches for his hand. Their marriage is not magically restored. They will need difficult conversations, patience, and time. But they have survived the moment that could have destroyed them.
+ENDING A: THE TRUTH EXPOSED — A CHANCE TO BEGIN AGAIN.
+ENDING B: A FRAGILE PEACE
+Joan dismisses Laqquo's accusations but allows him to remain in his position. He believes Aflania, yet hopes silence will prevent further conflict. For several weeks, peace returns to the kingdom, but Laqquo remains close to Joan.
+Aflania: “You told me you believed me.”
+Joan: “I do.”
+Aflania: “Then why do you still look at me as though you are waiting to discover something?”
+Joan cannot answer. He has chosen peace without addressing the manipulation that threatened it. The lie survives in silence.
+ENDING B: A FRAGILE PEACE — THE LIE SURVIVES IN SILENCE.
+ENDING C: THE MARRIAGE DESTROYED
+Joan: “You know precisely what I am accusing you of.”
+Aflania: “No. I know only that you have decided to believe something about me without allowing me to defend myself.”
+Joan: “Then defend yourself!”
+Aflania: “I have done nothing wrong.”
+Aflania: “I will not remain in a marriage where my innocence is treated as a privilege you may withdraw whenever you become afraid.”
+Aflania leaves the room. Joan does not pursue her. Years later, he remembers that night not as the moment he discovered her betrayal, but as the moment he created a betrayal that had never existed.
+ENDING C: THE MARRIAGE DESTROYED — JEALOUSY WINS WITHOUT A SWORD.
+ENDING D: THE PRICE OF FORGIVENESS
+Joan: “I do not wish to hold you against your will.”
+Aflania: “That is not the question. Do you understand why I might no longer feel safe with you?”
+Joan: “Yes.”
+Aflania: “I believe that you regret what happened. But I cannot promise that regret will make everything right.”
+Aflania returns to the capital. They exchange letters for several months, but eventually she tells Joan that she needs to build a life independent of their marriage. Joan accepts her decision. Their love was real, and their separation is real, too.
+ENDING D: THE PRICE OF FORGIVENESS — LOVE DOES NOT GUARANTEE RECONCILIATION.
+ENDING E: THE UNFINISHED APOLOGY
+Joan returns to his duties, convinced that time will repair the damage. He does not accuse Aflania again, but he never apologizes properly. Eventually, he finds a letter on his desk.
+“Joan,
+
+I have waited for you to speak to me about what happened. I have waited for you to acknowledge that your silence hurt me almost as much as your suspicion.
+
+I do not believe you are incapable of love. I believe you loved me sincerely. But sincerity cannot replace responsibility.
+
+I am leaving for the capital. I hope you find peace.
+
+Aflania.”
+Aflania leaves. Joan reads the letter twice. He has prevented the tragedy of the original story's final act, but he has not learned the lesson that might have saved his marriage. He mistook the absence of further conflict for healing.
+ENDING E: THE UNFINISHED APOLOGY — SILENCE IS NOT THE SAME AS HEALING.
+EPILOGUE: WHAT THE TRAGEDY COULD HAVE TAUGHT HIM
+Years later, Joan stands before a group of young officers who have gathered to hear him speak about leadership.
+Young Officer: “General, what is the greatest danger a leader can face?”
+Joan: “An enemy who wishes to destroy you is dangerous. An enemy who understands what you fear is more dangerous still.”
+Young Officer: “And how does a man defend himself against such an enemy?”
+Joan: “By learning the difference between what he knows and what he fears.”
+Young Officer: “Is that enough?”
+Joan: “No. He must also learn that the people he loves are not responsible for every fear he carries.”
+Joan tells them that he nearly destroyed his marriage because he mistook suspicion for wisdom. He urges them to ask what evidence supports a claim, what they may have failed to consider, and to remember that the person they accuse is a human being, not a problem to be solved.
+That evening, Joan finds an old letter from Aflania among his belongings. He reads it once more, folds it carefully, and puts it away.
+
+The tragedy was not simply that Joan became jealous. It was that he allowed another man's words to become more powerful than his own judgment, Aflania's voice, and the trust they had built together.
+
+And in every moment before the final tragedy, another choice had been possible.
+

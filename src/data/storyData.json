@@ -1,0 +1,2807 @@
+{
+  "prologue": {
+    "id": "prologue",
+    "title": "PROLOGUE: A WHISPER IN THE DARK",
+    "background": "rooftop_night",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "The war against the Abyss had ended, and the kingdom celebrated its victory. Soldiers drank in the streets, bells rang across the capital, and the people praised General Joan for defending their homeland.",
+        "rawText": "The war against the Abyss had ended, and the kingdom celebrated its victory. Soldiers drank in the streets, bells rang across the capital, and the people praised General Joan for defending their homeland.",
+        "isDialogue": false,
+        "id": "prologue_d0",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Yet, behind the celebration, another battle had begun.",
+        "rawText": "Yet, behind the celebration, another battle had begun.",
+        "isDialogue": false,
+        "id": "prologue_d1",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Joan sat alone on the rooftop of his residence, watching the moonlight spread across the city. He had survived countless battles against the Abyss, faced enemies who wished him dead, and earned the respect of people who had once doubted him. Still, he feared losing the woman he loved.",
+        "rawText": "Joan sat alone on the rooftop of his residence, watching the moonlight spread across the city. He had survived countless battles against the Abyss, faced enemies who wished him dead, and earned the respect of people who had once doubted him. Still, he feared losing the woman he loved.",
+        "isDialogue": false,
+        "id": "prologue_d2",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Aflania had married him despite her family's objections. Their love had survived prejudice, distance, and the expectations of others. To Joan, she was more than his wife. She was the one person before whom he did not have to be a general.",
+        "rawText": "Aflania had married him despite her family's objections. Their love had survived prejudice, distance, and the expectations of others. To Joan, she was more than his wife. She was the one person before whom he did not have to be a general.",
+        "isDialogue": false,
+        "id": "prologue_d3",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "A man climbed onto the rooftop and stood beside him.",
+        "rawText": "A man climbed onto the rooftop and stood beside him.",
+        "isDialogue": false,
+        "id": "prologue_d4",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "You seem troubled, General. The victory should bring us some peace.",
+        "rawText": "Laqquo: “You seem troubled, General. The victory should bring us some peace.”",
+        "isDialogue": true,
+        "id": "prologue_d5",
+        "expression": "calculating",
+        "background": "rooftop_night",
+        "paranoiaDelta": 2,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "The victory brings peace to the kingdom. It does not promise peace to the mind.",
+        "rawText": "Joan: “The victory brings peace to the kingdom. It does not promise peace to the mind.”",
+        "isDialogue": true,
+        "id": "prologue_d6",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "And what occupies your mind tonight?",
+        "rawText": "Laqquo: “And what occupies your mind tonight?”",
+        "isDialogue": true,
+        "id": "prologue_d7",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "My future. The woman I love. The things a man might lose without realizing they are slipping away.",
+        "rawText": "Joan: “My future. The woman I love. The things a man might lose without realizing they are slipping away.”",
+        "isDialogue": true,
+        "id": "prologue_d8",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "You should never place your love too deeply in someone.",
+        "rawText": "Laqquo: “You should never place your love too deeply in someone.”",
+        "isDialogue": true,
+        "id": "prologue_d9",
+        "expression": "insinuating",
+        "background": "rooftop_night",
+        "paranoiaDelta": 5,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Why?",
+        "rawText": "Joan: “Why?”",
+        "isDialogue": true,
+        "id": "prologue_d10",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "The deeper the love, the greater the betrayal.",
+        "rawText": "Laqquo: “The deeper the love, the greater the betrayal.”",
+        "isDialogue": true,
+        "id": "prologue_d11",
+        "expression": "sharp",
+        "background": "rooftop_night",
+        "paranoiaDelta": 8,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You speak as though betrayal were inevitable.",
+        "rawText": "Joan: “You speak as though betrayal were inevitable.”",
+        "isDialogue": true,
+        "id": "prologue_d12",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "Not inevitable. Merely possible.",
+        "rawText": "Laqquo: “Not inevitable. Merely possible.”",
+        "isDialogue": true,
+        "id": "prologue_d13",
+        "expression": "faint_smile",
+        "background": "rooftop_night",
+        "paranoiaDelta": 5,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Everything is possible, Laqquo. That does not mean everything deserves to be feared.",
+        "rawText": "Joan: “Everything is possible, Laqquo. That does not mean everything deserves to be feared.”",
+        "isDialogue": true,
+        "id": "prologue_d14",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "Forgive me, General. I speak only because I care for your happiness.",
+        "rawText": "Laqquo: “Forgive me, General. I speak only because I care for your happiness.”",
+        "isDialogue": true,
+        "id": "prologue_d15",
+        "expression": "concerned",
+        "background": "rooftop_night",
+        "paranoiaDelta": 3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Then care for it by giving me no reason to doubt those I love.",
+        "rawText": "Joan: “Then care for it by giving me no reason to doubt those I love.”",
+        "isDialogue": true,
+        "id": "prologue_d16",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Laqquo lowered his head, hiding a faint smile. Joan had not accepted the insinuation, but the idea had been planted.",
+        "rawText": "Laqquo lowered his head, hiding a faint smile. Joan had not accepted the insinuation, but the idea had been planted.",
+        "isDialogue": false,
+        "id": "prologue_d17",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Joan remained on the rooftop. For a moment, he considered telling Aflania about the conversation. Then he dismissed the thought. There was no evidence of wrongdoing, and he refused to let another man's suspicion become a shadow over his marriage.",
+        "rawText": "Joan remained on the rooftop. For a moment, he considered telling Aflania about the conversation. Then he dismissed the thought. There was no evidence of wrongdoing, and he refused to let another man's suspicion become a shadow over his marriage.",
+        "isDialogue": false,
+        "id": "prologue_d18",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "He returned to his room, where Aflania was reading beside the window.",
+        "rawText": "He returned to his room, where Aflania was reading beside the window.",
+        "isDialogue": false,
+        "id": "prologue_d19",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "You look as though you have been arguing with the moon.",
+        "rawText": "Aflania: “You look as though you have been arguing with the moon.”",
+        "isDialogue": true,
+        "id": "prologue_d20",
+        "expression": "reading",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "The moon has nothing on you, my love.",
+        "rawText": "Joan: “The moon has nothing on you, my love.”",
+        "isDialogue": true,
+        "id": "prologue_d21",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Then tell me what troubles you.",
+        "rawText": "Aflania: “Then tell me what troubles you.”",
+        "isDialogue": true,
+        "id": "prologue_d22",
+        "expression": "reading",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Joan hesitated. He could tell her about Laqquo's words, dismiss them as meaningless, or keep the matter to himself. For the first time that evening, he understood that what he did next might matter more than anything Laqquo had said.",
+        "rawText": "Joan hesitated. He could tell her about Laqquo's words, dismiss them as meaningless, or keep the matter to himself. For the first time that evening, he understood that what he did next might matter more than anything Laqquo had said.",
+        "isDialogue": false,
+        "id": "prologue_d23",
+        "expression": "neutral",
+        "background": "rooftop_night",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_1",
+      "prompt": "CHOICE 1: HOW WILL JOAN RESPOND?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell Aflania everything.",
+          "targetScene": "scene_1a",
+          "paranoiaDelta": -5,
+          "description": "Joan is completely open with Aflania, seeking clarity together."
+        },
+        {
+          "key": "B",
+          "text": "Dismiss the conversation and spend the evening with Aflania.",
+          "targetScene": "scene_1b",
+          "paranoiaDelta": 5,
+          "description": "Joan bottles up his worries, attempting to preserve peace silently."
+        },
+        {
+          "key": "C",
+          "text": "Ask Aflania whether she has noticed anything unusual about Laqquo.",
+          "targetScene": "scene_1c",
+          "paranoiaDelta": 10,
+          "description": "Joan probes cautiously, inadvertently allowing suspicion to touch his wife."
+        }
+      ]
+    }
+  },
+  "scene_1a": {
+    "id": "scene_1a",
+    "title": "SCENE 1A: THE FIRST CONVERSATION",
+    "background": "bedroom",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan sat beside Aflania and told her everything Laqquo had said. She listened without interrupting.",
+        "rawText": "Joan sat beside Aflania and told her everything Laqquo had said. She listened without interrupting.",
+        "isDialogue": false,
+        "id": "scene_1a_d0",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "And what do you believe?",
+        "rawText": "Aflania: “And what do you believe?”",
+        "isDialogue": true,
+        "id": "scene_1a_d1",
+        "expression": "thoughtful",
+        "background": "bedroom",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I believe Laqquo wants me to fear something I have no reason to fear.",
+        "rawText": "Joan: “I believe Laqquo wants me to fear something I have no reason to fear.”",
+        "isDialogue": true,
+        "id": "scene_1a_d2",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": -2,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Then why does it trouble you?",
+        "rawText": "Aflania: “Then why does it trouble you?”",
+        "isDialogue": true,
+        "id": "scene_1a_d3",
+        "expression": "peaceful",
+        "background": "bedroom",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Because he is my comrade. I have trusted him with my life.",
+        "rawText": "Joan: “Because he is my comrade. I have trusted him with my life.”",
+        "isDialogue": true,
+        "id": "scene_1a_d4",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": -2,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Trusting someone with your life does not mean surrendering your judgment to them.",
+        "rawText": "Aflania: “Trusting someone with your life does not mean surrendering your judgment to them.”",
+        "isDialogue": true,
+        "id": "scene_1a_d5",
+        "expression": "peaceful",
+        "background": "bedroom",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You think he intends to harm us?",
+        "rawText": "Joan: “You think he intends to harm us?”",
+        "isDialogue": true,
+        "id": "scene_1a_d6",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": -2,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I do not know. But someone who truly wishes to protect you should be able to explain his concerns without asking you to condemn someone else.",
+        "rawText": "Aflania: “I do not know. But someone who truly wishes to protect you should be able to explain his concerns without asking you to condemn someone else.”",
+        "isDialogue": true,
+        "id": "scene_1a_d7",
+        "expression": "resolute",
+        "background": "bedroom",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You are right. I will speak with him tomorrow.",
+        "rawText": "Joan: “You are right. I will speak with him tomorrow.”",
+        "isDialogue": true,
+        "id": "scene_1a_d8",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": -2,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "And until then?",
+        "rawText": "Aflania: “And until then?”",
+        "isDialogue": true,
+        "id": "scene_1a_d9",
+        "expression": "peaceful",
+        "background": "bedroom",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I will not let an unproven accusation change what I know of you.",
+        "rawText": "Joan: “I will not let an unproven accusation change what I know of you.”",
+        "isDialogue": true,
+        "id": "scene_1a_d10",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": -2,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "For that evening, they were at peace.",
+        "rawText": "For that evening, they were at peace.",
+        "isDialogue": false,
+        "id": "scene_1a_d11",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "The following morning, Laqquo approached Joan with a new story: Cassian, a young officer, had been seen speaking privately with Aflania near the courtyard. Their conversation had concerned aid for families affected by the war, but Laqquo offered no such explanation.",
+        "rawText": "The following morning, Laqquo approached Joan with a new story: Cassian, a young officer, had been seen speaking privately with Aflania near the courtyard. Their conversation had concerned aid for families affected by the war, but Laqquo offered no such explanation.",
+        "isDialogue": false,
+        "id": "scene_1a_d12",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 10,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You told me you had no proof. Has that changed?",
+        "rawText": "Joan: “You told me you had no proof. Has that changed?”",
+        "isDialogue": true,
+        "id": "scene_1a_d13",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "I witnessed nothing improper myself. I merely thought you ought to know.",
+        "rawText": "Laqquo: “I witnessed nothing improper myself. I merely thought you ought to know.”",
+        "isDialogue": true,
+        "id": "scene_1a_d14",
+        "expression": "insinuating",
+        "background": "courtyard_day",
+        "paranoiaDelta": 10,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Then you know nothing more than I do.",
+        "rawText": "Joan: “Then you know nothing more than I do.”",
+        "isDialogue": true,
+        "id": "scene_1a_d15",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "If you have a concern, present the facts. Do not ask me to build a conviction from your imagination.",
+        "rawText": "Joan: “If you have a concern, present the facts. Do not ask me to build a conviction from your imagination.”",
+        "isDialogue": true,
+        "id": "scene_1a_d16",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_2a",
+      "prompt": "CHOICE 2A: WHAT SHOULD JOAN DO NEXT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Speak to Cassian directly.",
+          "targetScene": "scene_2a",
+          "paranoiaDelta": 0,
+          "description": "Joan seeks first-hand facts from the young officer directly."
+        },
+        {
+          "key": "B",
+          "text": "Ask Emilia whether Laqquo has been behaving strangely.",
+          "targetScene": "scene_2b",
+          "paranoiaDelta": -5,
+          "description": "Joan checks the credibility of his accuser via Laqquo's wife."
+        },
+        {
+          "key": "C",
+          "text": "Confront Laqquo about his repeated insinuations.",
+          "targetScene": "scene_2c",
+          "paranoiaDelta": 5,
+          "description": "Joan pushes back against Laqquo's subtle manipulation."
+        }
+      ]
+    }
+  },
+  "scene_1b": {
+    "id": "scene_1b",
+    "title": "SCENE 1B: THE EVENING OF PEACE",
+    "background": "bedroom",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan decided not to burden Aflania with Laqquo's suspicions. He put aside his worries and joined her by the window.",
+        "rawText": "Joan decided not to burden Aflania with Laqquo's suspicions. He put aside his worries and joined her by the window.",
+        "isDialogue": false,
+        "id": "scene_1b_d0",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "You have been unusually quiet.",
+        "rawText": "Aflania: “You have been unusually quiet.”",
+        "isDialogue": true,
+        "id": "scene_1b_d1",
+        "expression": "peaceful",
+        "background": "bedroom",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Must a man always have a reason for silence?",
+        "rawText": "Joan: “Must a man always have a reason for silence?”",
+        "isDialogue": true,
+        "id": "scene_1b_d2",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "No. But I know the difference between peaceful silence and troubled silence.",
+        "rawText": "Aflania: “No. But I know the difference between peaceful silence and troubled silence.”",
+        "isDialogue": true,
+        "id": "scene_1b_d3",
+        "expression": "peaceful",
+        "background": "bedroom",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You know me too well.",
+        "rawText": "Joan: “You know me too well.”",
+        "isDialogue": true,
+        "id": "scene_1b_d4",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I married you, Joan. I intended to learn.",
+        "rawText": "Aflania: “I married you, Joan. I intended to learn.”",
+        "isDialogue": true,
+        "id": "scene_1b_d5",
+        "expression": "peaceful",
+        "background": "bedroom",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "They spoke of the future they hoped to share: returning to the capital when the kingdom had recovered, and one day leaving military life behind. For a time, Joan remembered the life they had promised each other.",
+        "rawText": "They spoke of the future they hoped to share: returning to the capital when the kingdom had recovered, and one day leaving military life behind. For a time, Joan remembered the life they had promised each other.",
+        "isDialogue": false,
+        "id": "scene_1b_d6",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "The next morning, Laqquo approached him with a more direct insinuation.",
+        "rawText": "The next morning, Laqquo approached him with a more direct insinuation.",
+        "isDialogue": false,
+        "id": "scene_1b_d7",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 10,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "I have tried to remain silent, General. But I fear you mistake my caution for indifference.",
+        "rawText": "Laqquo: “I have tried to remain silent, General. But I fear you mistake my caution for indifference.”",
+        "isDialogue": true,
+        "id": "scene_1b_d8",
+        "expression": "insinuating",
+        "background": "courtyard_day",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Then be clear.",
+        "rawText": "Joan: “Then be clear.”",
+        "isDialogue": true,
+        "id": "scene_1b_d9",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "Cassian has grown familiar with Aflania. Their conversations are frequent, and she seems eager for his company.",
+        "rawText": "Laqquo: “Cassian has grown familiar with Aflania. Their conversations are frequent, and she seems eager for his company.”",
+        "isDialogue": true,
+        "id": "scene_1b_d10",
+        "expression": "insinuating",
+        "background": "courtyard_day",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Cassian is an officer. Aflania cares about the people of this kingdom. They have every reason to speak.",
+        "rawText": "Joan: “Cassian is an officer. Aflania cares about the people of this kingdom. They have every reason to speak.”",
+        "isDialogue": true,
+        "id": "scene_1b_d11",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "Of course. Perhaps I am mistaken.",
+        "rawText": "Laqquo: “Of course. Perhaps I am mistaken.”",
+        "isDialogue": true,
+        "id": "scene_1b_d12",
+        "expression": "insinuating",
+        "background": "courtyard_day",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Perhaps you are.",
+        "rawText": "Joan: “Perhaps you are.”",
+        "isDialogue": true,
+        "id": "scene_1b_d13",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "For the first time, Joan wondered whether Laqquo wanted to protect him or simply wanted him to believe danger existed.",
+        "rawText": "For the first time, Joan wondered whether Laqquo wanted to protect him or simply wanted him to believe danger existed.",
+        "isDialogue": false,
+        "id": "scene_1b_d14",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_2b",
+      "prompt": "CHOICE 2B: HOW WILL JOAN PROCEED?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Observe Cassian and Aflania without drawing conclusions.",
+          "targetScene": "scene_2a",
+          "paranoiaDelta": 10,
+          "description": "Joan begins watching them, trying to verify Laqquo's words."
+        },
+        {
+          "key": "B",
+          "text": "Confront Laqquo about his repeated insinuations.",
+          "targetScene": "scene_2c",
+          "paranoiaDelta": 5,
+          "description": "Joan demands clarity from his subordinate."
+        },
+        {
+          "key": "C",
+          "text": "Discuss the situation openly with Aflania. Return to Scene 1A and continue with Scene 2B.",
+          "targetScene": "scene_1a",
+          "returnTo2B": true,
+          "paranoiaDelta": -10,
+          "description": "Joan breaks the silence and confides in Aflania, then continues investigation with Emilia."
+        }
+      ]
+    }
+  },
+  "scene_1c": {
+    "id": "scene_1c",
+    "title": "SCENE 1C: THE QUESTION OF LAQQUO",
+    "background": "bedroom",
+    "dialogues": [
+      {
+        "speaker": "Joan",
+        "text": "Have you noticed anything unusual about Laqquo?",
+        "rawText": "Joan: “Have you noticed anything unusual about Laqquo?”",
+        "isDialogue": true,
+        "id": "scene_1c_d0",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Unusual in what way?",
+        "rawText": "Aflania: “Unusual in what way?”",
+        "isDialogue": true,
+        "id": "scene_1c_d1",
+        "expression": "thoughtful",
+        "background": "bedroom",
+        "paranoiaDelta": 3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "His manner. His words. The way he speaks of other people.",
+        "rawText": "Joan: “His manner. His words. The way he speaks of other people.”",
+        "isDialogue": true,
+        "id": "scene_1c_d2",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "He is observant, but I have sometimes wondered why he seems so interested in the private affairs of others.",
+        "rawText": "Aflania: “He is observant, but I have sometimes wondered why he seems so interested in the private affairs of others.”",
+        "isDialogue": true,
+        "id": "scene_1c_d3",
+        "expression": "thoughtful",
+        "background": "bedroom",
+        "paranoiaDelta": 3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Have you ever given him reason to distrust you?",
+        "rawText": "Joan: “Have you ever given him reason to distrust you?”",
+        "isDialogue": true,
+        "id": "scene_1c_d4",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "No. Why would you ask me that?",
+        "rawText": "Aflania: “No. Why would you ask me that?”",
+        "isDialogue": true,
+        "id": "scene_1c_d5",
+        "expression": "thoughtful",
+        "background": "bedroom",
+        "paranoiaDelta": 3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I am sorry. I should not have phrased it that way. I have no accusation against you.",
+        "rawText": "Joan: “I am sorry. I should not have phrased it that way. I have no accusation against you.”",
+        "isDialogue": true,
+        "id": "scene_1c_d6",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Then let us be careful about the questions we ask each other. Suspicion can wound even when it is not spoken as an accusation.",
+        "rawText": "Aflania: “Then let us be careful about the questions we ask each other. Suspicion can wound even when it is not spoken as an accusation.”",
+        "isDialogue": true,
+        "id": "scene_1c_d7",
+        "expression": "thoughtful",
+        "background": "bedroom",
+        "paranoiaDelta": 3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "The following day, Joan spoke with Emilia, Laqquo's wife.",
+        "rawText": "The following day, Joan spoke with Emilia, Laqquo's wife.",
+        "isDialogue": false,
+        "id": "scene_1c_d8",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Laqquo has repeatedly suggested that Cassian and Aflania are too familiar.",
+        "rawText": "Joan: “Laqquo has repeatedly suggested that Cassian and Aflania are too familiar.”",
+        "isDialogue": true,
+        "id": "scene_1c_d9",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Emilia",
+        "text": "Has he?",
+        "rawText": "Emilia: “Has he?”",
+        "isDialogue": true,
+        "id": "scene_1c_d10",
+        "expression": "hesitant",
+        "background": "corridor",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Do you believe he would deliberately deceive me?",
+        "rawText": "Joan: “Do you believe he would deliberately deceive me?”",
+        "isDialogue": true,
+        "id": "scene_1c_d11",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Emilia",
+        "text": "I believe he is capable of doing harm when he thinks he has been wronged. Whether he would deceive you is something I cannot yet prove.",
+        "rawText": "Emilia: “I believe he is capable of doing harm when he thinks he has been wronged. Whether he would deceive you is something I cannot yet prove.”",
+        "isDialogue": true,
+        "id": "scene_1c_d12",
+        "expression": "hesitant",
+        "background": "corridor",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_2c",
+      "prompt": "CHOICE 2C: THE NEXT STEP",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask Emilia to help discover what Laqquo is planning.",
+          "targetScene": "scene_2b",
+          "paranoiaDelta": -5,
+          "description": "Joan requests Emilia's aid to investigate Laqquo's motive."
+        },
+        {
+          "key": "B",
+          "text": "Confront Laqquo openly and demand an explanation.",
+          "targetScene": "scene_2c",
+          "paranoiaDelta": 5,
+          "description": "Joan confronts Laqquo face to face."
+        },
+        {
+          "key": "C",
+          "text": "Bring Aflania, Cassian, and Laqquo together to discuss the accusations.",
+          "targetScene": "scene_3",
+          "paranoiaDelta": 10,
+          "description": "Joan forces an open confrontation among all three."
+        }
+      ]
+    }
+  },
+  "scene_2a": {
+    "id": "scene_2a",
+    "title": "SCENE 2A: CASSIAN'S ANSWER",
+    "background": "courtyard_day",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan found Cassian in the courtyard, reviewing reports about the families affected by the war.",
+        "rawText": "Joan found Cassian in the courtyard, reviewing reports about the families affected by the war.",
+        "isDialogue": false,
+        "id": "scene_2a_d0",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Laqquo tells me that you have been spending considerable time with Aflania.",
+        "rawText": "Joan: “Laqquo tells me that you have been spending considerable time with Aflania.”",
+        "isDialogue": true,
+        "id": "scene_2a_d1",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Cassian",
+        "text": "I have spoken with her, yes. She asked about the condition of the soldiers and the people of the kingdom.",
+        "rawText": "Cassian: “I have spoken with her, yes. She asked about the condition of the soldiers and the people of the kingdom.”",
+        "isDialogue": true,
+        "id": "scene_2a_d2",
+        "expression": "respectful",
+        "background": "courtyard_day",
+        "paranoiaDelta": -5,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Have you ever spoken to her in secret?",
+        "rawText": "Joan: “Have you ever spoken to her in secret?”",
+        "isDialogue": true,
+        "id": "scene_2a_d3",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Cassian",
+        "text": "Not with any intention of concealing our conversations. There have been private discussions, but nothing improper.",
+        "rawText": "Cassian: “Not with any intention of concealing our conversations. There have been private discussions, but nothing improper.”",
+        "isDialogue": true,
+        "id": "scene_2a_d4",
+        "expression": "respectful",
+        "background": "courtyard_day",
+        "paranoiaDelta": -5,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You understand why I must ask?",
+        "rawText": "Joan: “You understand why I must ask?”",
+        "isDialogue": true,
+        "id": "scene_2a_d5",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Cassian",
+        "text": "I understand your concern for your marriage. But an innocent man may be injured by an accusation even when it is made quietly.",
+        "rawText": "Cassian: “I understand your concern for your marriage. But an innocent man may be injured by an accusation even when it is made quietly.”",
+        "isDialogue": true,
+        "id": "scene_2a_d6",
+        "expression": "respectful",
+        "background": "courtyard_day",
+        "paranoiaDelta": -5,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You are right. I will not punish you for a conversation.",
+        "rawText": "Joan: “You are right. I will not punish you for a conversation.”",
+        "isDialogue": true,
+        "id": "scene_2a_d7",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Later that afternoon, a servant brought Joan a small silver butterfly brooch. It was the keepsake he had given Aflania on their wedding day.",
+        "rawText": "Later that afternoon, a servant brought Joan a small silver butterfly brooch. It was the keepsake he had given Aflania on their wedding day.",
+        "isDialogue": false,
+        "id": "scene_2a_d8",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 10,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "Where did you find this?",
+        "rawText": "Joan: “Where did you find this?”",
+        "isDialogue": true,
+        "id": "scene_2a_d9",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 10,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Servant",
+        "text": "Near the western corridor, my lord.",
+        "rawText": "Servant: “Near the western corridor, my lord.”",
+        "isDialogue": true,
+        "id": "scene_2a_d10",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Joan recognized it immediately. Aflania might have dropped it. Someone might have picked it up. Or someone might have deliberately placed it where it would be discovered. The brooch proved nothing beyond its own presence, yet Joan knew Laqquo would try to make it mean more.",
+        "rawText": "Joan recognized it immediately. Aflania might have dropped it. Someone might have picked it up. Or someone might have deliberately placed it where it would be discovered. The brooch proved nothing beyond its own presence, yet Joan knew Laqquo would try to make it mean more.",
+        "isDialogue": false,
+        "id": "scene_2a_d11",
+        "expression": "neutral",
+        "background": "courtyard_day",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_3a",
+      "prompt": "CHOICE 3A: WHAT DOES JOAN DO WITH THE BROOCH?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Return it to Aflania and ask how she lost it.",
+          "targetScene": "scene_3b",
+          "paranoiaDelta": -5,
+          "description": "Joan brings the keepsake back to his wife with honest concern."
+        },
+        {
+          "key": "B",
+          "text": "Ask the servant who else had access to the corridor.",
+          "targetScene": "scene_3c",
+          "paranoiaDelta": 0,
+          "description": "Joan questions the logistics of how the brooch arrived in the corridor."
+        },
+        {
+          "key": "C",
+          "text": "Show the brooch to Laqquo and observe his reaction.",
+          "targetScene": "scene_3d",
+          "paranoiaDelta": 10,
+          "description": "Joan tests Laqquo to see how he responds to the physical item."
+        }
+      ]
+    }
+  },
+  "scene_2b": {
+    "id": "scene_2b",
+    "title": "SCENE 2B: EMILIA'S SECRET",
+    "background": "corridor",
+    "dialogues": [
+      {
+        "speaker": "Emilia",
+        "text": "I must tell you something, General. But I do not wish to accuse my husband without understanding what he has done.",
+        "rawText": "Emilia: “I must tell you something, General. But I do not wish to accuse my husband without understanding what he has done.”",
+        "isDialogue": true,
+        "id": "scene_2b_d0",
+        "expression": "hesitant",
+        "background": "corridor",
+        "paranoiaDelta": -10,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I ask for the truth, not a conviction.",
+        "rawText": "Joan: “I ask for the truth, not a conviction.”",
+        "isDialogue": true,
+        "id": "scene_2b_d1",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Emilia",
+        "text": "Several days ago, Laqquo asked me to obtain Aflania's butterfly brooch. I gave it to him because he was my husband.",
+        "rawText": "Emilia: “Several days ago, Laqquo asked me to obtain Aflania's butterfly brooch. I gave it to him because he was my husband.”",
+        "isDialogue": true,
+        "id": "scene_2b_d2",
+        "expression": "guilty",
+        "background": "corridor",
+        "paranoiaDelta": -10,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "Did he tell you what he intended to do with it?",
+        "rawText": "Joan: “Did he tell you what he intended to do with it?”",
+        "isDialogue": true,
+        "id": "scene_2b_d3",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Emilia",
+        "text": "No. I cannot tell you what happened after I gave it to him.",
+        "rawText": "Emilia: “No. I cannot tell you what happened after I gave it to him.”",
+        "isDialogue": true,
+        "id": "scene_2b_d4",
+        "expression": "hesitant",
+        "background": "corridor",
+        "paranoiaDelta": -10,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You have done the right thing by telling me. I will ask questions before I make accusations. That is what I should have done from the beginning.",
+        "rawText": "Joan: “You have done the right thing by telling me. I will ask questions before I make accusations. That is what I should have done from the beginning.”",
+        "isDialogue": true,
+        "id": "scene_2b_d5",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_3b",
+      "prompt": "CHOICE 3B: HOW WILL JOAN USE THIS INFORMATION?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront Laqquo with Emilia's testimony.",
+          "targetScene": "scene_4a",
+          "paranoiaDelta": -10,
+          "description": "Armed with Emilia's confession, Joan corners Laqquo with undeniable proof."
+        },
+        {
+          "key": "B",
+          "text": "Speak to Aflania and explain everything he has learned.",
+          "targetScene": "scene_3b",
+          "paranoiaDelta": -10,
+          "description": "Joan brings the truth back to Aflania to reassure her and clear the air."
+        },
+        {
+          "key": "C",
+          "text": "Investigate the brooch's movements before confronting anyone.",
+          "targetScene": "scene_3c",
+          "paranoiaDelta": 0,
+          "description": "Joan verifies the physical chain of events through the servants."
+        }
+      ]
+    }
+  },
+  "scene_2c": {
+    "id": "scene_2c",
+    "title": "SCENE 2C: THE LIEUTENANT'S WARNING",
+    "background": "main_hall",
+    "dialogues": [
+      {
+        "speaker": "Joan",
+        "text": "Your concerns about Aflania have become a pattern.",
+        "rawText": "Joan: “Your concerns about Aflania have become a pattern.”",
+        "isDialogue": true,
+        "id": "scene_2c_d0",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "I am attempting to protect you.",
+        "rawText": "Laqquo: “I am attempting to protect you.”",
+        "isDialogue": true,
+        "id": "scene_2c_d1",
+        "expression": "sharp",
+        "background": "main_hall",
+        "paranoiaDelta": 10,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "From what, precisely?",
+        "rawText": "Joan: “From what, precisely?”",
+        "isDialogue": true,
+        "id": "scene_2c_d2",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "From humiliation.",
+        "rawText": "Laqquo: “From humiliation.”",
+        "isDialogue": true,
+        "id": "scene_2c_d3",
+        "expression": "sharp",
+        "background": "main_hall",
+        "paranoiaDelta": 10,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "You speak of humiliation as though it has already occurred. What evidence do you possess?",
+        "rawText": "Joan: “You speak of humiliation as though it has already occurred. What evidence do you possess?”",
+        "isDialogue": true,
+        "id": "scene_2c_d4",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "I have observed their familiarity.",
+        "rawText": "Laqquo: “I have observed their familiarity.”",
+        "isDialogue": true,
+        "id": "scene_2c_d5",
+        "expression": "sharp",
+        "background": "main_hall",
+        "paranoiaDelta": 10,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "That is an observation. Your accusation is something else.",
+        "rawText": "Joan: “That is an observation. Your accusation is something else.”",
+        "isDialogue": true,
+        "id": "scene_2c_d6",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "You would rather believe them than me?",
+        "rawText": "Laqquo: “You would rather believe them than me?”",
+        "isDialogue": true,
+        "id": "scene_2c_d7",
+        "expression": "sharp",
+        "background": "main_hall",
+        "paranoiaDelta": 10,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I would rather establish the truth than choose a side before I know it.",
+        "rawText": "Joan: “I would rather establish the truth than choose a side before I know it.”",
+        "isDialogue": true,
+        "id": "scene_2c_d8",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "You have changed, General.",
+        "rawText": "Laqquo: “You have changed, General.”",
+        "isDialogue": true,
+        "id": "scene_2c_d9",
+        "expression": "sharp",
+        "background": "main_hall",
+        "paranoiaDelta": 10,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Perhaps I have begun to ask better questions.",
+        "rawText": "Joan: “Perhaps I have begun to ask better questions.”",
+        "isDialogue": true,
+        "id": "scene_2c_d10",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_3c",
+      "prompt": "CHOICE 3C: THE CONFRONTATION",
+      "options": [
+        {
+          "key": "A",
+          "text": "Summon Aflania and Cassian to establish the facts together.",
+          "targetScene": "scene_3",
+          "paranoiaDelta": 5,
+          "description": "Joan summons everyone to the main hall."
+        },
+        {
+          "key": "B",
+          "text": "Ask Emilia to reveal everything she knows about Laqquo.",
+          "targetScene": "scene_2b",
+          "paranoiaDelta": -5,
+          "description": "Joan seeks Emilia's independent perspective."
+        },
+        {
+          "key": "C",
+          "text": "Give Laqquo one final opportunity to produce genuine evidence.",
+          "targetScene": "scene_4a",
+          "paranoiaDelta": -5,
+          "description": "Joan challenges Laqquo to prove his claims under formal scrutiny."
+        }
+      ]
+    }
+  },
+  "scene_3": {
+    "id": "scene_3",
+    "title": "SCENE 3: THREE PEOPLE, ONE ACCUSATION",
+    "background": "main_hall",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan arranged a meeting in the main hall. Aflania arrived first, followed by Cassian. Laqquo entered last.",
+        "rawText": "Joan arranged a meeting in the main hall. Aflania arrived first, followed by Cassian. Laqquo entered last.",
+        "isDialogue": false,
+        "id": "scene_3_d0",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I have called you here because a serious accusation has been made, and I will not allow it to grow in secret.",
+        "rawText": "Joan: “I have called you here because a serious accusation has been made, and I will not allow it to grow in secret.”",
+        "isDialogue": true,
+        "id": "scene_3_d1",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "An accusation against whom?",
+        "rawText": "Aflania: “An accusation against whom?”",
+        "isDialogue": true,
+        "id": "scene_3_d2",
+        "expression": "firm",
+        "background": "main_hall",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Against our marriage. Laqquo has suggested that your relationship with Cassian is improper. He has also implied that the butterfly brooch is connected to this accusation.",
+        "rawText": "Joan: “Against our marriage. Laqquo has suggested that your relationship with Cassian is improper. He has also implied that the butterfly brooch is connected to this accusation.”",
+        "isDialogue": true,
+        "id": "scene_3_d3",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "You suspected me?",
+        "rawText": "Aflania: “You suspected me?”",
+        "isDialogue": true,
+        "id": "scene_3_d4",
+        "expression": "wounded",
+        "background": "main_hall",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I have questioned what I was told. I have not decided that you are guilty.",
+        "rawText": "Joan: “I have questioned what I was told. I have not decided that you are guilty.”",
+        "isDialogue": true,
+        "id": "scene_3_d5",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Then let me speak. I have treated Cassian as your friend and officer. I have never been unfaithful to my husband. If you possess evidence, present it. If you do not, stop using my name to feed your suspicions.",
+        "rawText": "Aflania: “Then let me speak. I have treated Cassian as your friend and officer. I have never been unfaithful to my husband. If you possess evidence, present it. If you do not, stop using my name to feed your suspicions.”",
+        "isDialogue": true,
+        "id": "scene_3_d6",
+        "expression": "firm",
+        "background": "main_hall",
+        "paranoiaDelta": -3,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Cassian",
+        "text": "I have served this general faithfully. I will not confess to a betrayal I have not committed.",
+        "rawText": "Cassian: “I have served this general faithfully. I will not confess to a betrayal I have not committed.”",
+        "isDialogue": true,
+        "id": "scene_3_d7",
+        "expression": "innocent_firm",
+        "background": "main_hall",
+        "paranoiaDelta": -2,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "You see how easily they defend one another.",
+        "rawText": "Laqquo: “You see how easily they defend one another.”",
+        "isDialogue": true,
+        "id": "scene_3_d8",
+        "expression": "insinuating",
+        "background": "main_hall",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "And you see how easily you mistake a defence against an accusation for proof of guilt.",
+        "rawText": "Joan: “And you see how easily you mistake a defence against an accusation for proof of guilt.”",
+        "isDialogue": true,
+        "id": "scene_3_d9",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Did you witness Aflania commit adultery?",
+        "rawText": "Joan: “Did you witness Aflania commit adultery?”",
+        "isDialogue": true,
+        "id": "scene_3_d10",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "No.",
+        "rawText": "Laqquo: “No.”",
+        "isDialogue": true,
+        "id": "scene_3_d11",
+        "expression": "insinuating",
+        "background": "main_hall",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Did Cassian confess to such an act?",
+        "rawText": "Joan: “Did Cassian confess to such an act?”",
+        "isDialogue": true,
+        "id": "scene_3_d12",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "No.",
+        "rawText": "Laqquo: “No.”",
+        "isDialogue": true,
+        "id": "scene_3_d13",
+        "expression": "insinuating",
+        "background": "main_hall",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Then what, exactly, are you asking me to believe?",
+        "rawText": "Joan: “Then what, exactly, are you asking me to believe?”",
+        "isDialogue": true,
+        "id": "scene_3_d14",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_4",
+      "prompt": "CHOICE 4: THE DECISION",
+      "options": [
+        {
+          "key": "A",
+          "text": "Believe Aflania and suspend Laqquo from his duties pending an investigation.",
+          "targetScene": "ending_a",
+          "paranoiaDelta": -30,
+          "description": "Joan places his faith in Aflania, strips Laqquo of authority, and protects the marriage."
+        },
+        {
+          "key": "B",
+          "text": "Forgive Laqquo's suspicions but warn him never to repeat them without evidence.",
+          "targetScene": "ending_b",
+          "paranoiaDelta": 10,
+          "description": "Joan chooses passive peace, leaving the venom intact."
+        },
+        {
+          "key": "C",
+          "text": "Remain uncertain and continue investigating privately.",
+          "targetScene": "scene_4b",
+          "paranoiaDelta": 15,
+          "description": "Joan remains torn, continuing to search while distancing himself from Aflania."
+        },
+        {
+          "key": "D",
+          "text": "Allow anger to overcome reason and accuse Aflania publicly.",
+          "targetScene": "ending_c",
+          "paranoiaDelta": 50,
+          "isDestructive": true,
+          "description": "Paranoia consumes Joan. He lashes out with public accusations, shattering his marriage forever."
+        }
+      ]
+    }
+  },
+  "scene_3b": {
+    "id": "scene_3b",
+    "title": "SCENE 3B: THE BROOCH RETURNED",
+    "background": "bedroom",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan returns the butterfly brooch to Aflania and explains what Emilia has revealed. Aflania confirms that she did not give the brooch to Cassian. Joan now has reason to suspect Laqquo's interference, but must decide how to act.",
+        "rawText": "Joan returns the butterfly brooch to Aflania and explains what Emilia has revealed. Aflania confirms that she did not give the brooch to Cassian. Joan now has reason to suspect Laqquo's interference, but must decide how to act.",
+        "isDialogue": false,
+        "id": "scene_3b_d0",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I am glad you came to me. I only wish you had done so before allowing this doubt to grow.",
+        "rawText": "Aflania: “I am glad you came to me. I only wish you had done so before allowing this doubt to grow.”",
+        "isDialogue": true,
+        "id": "scene_3b_d1",
+        "expression": "thoughtful",
+        "background": "bedroom",
+        "paranoiaDelta": -10,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "I am beginning to understand how much damage a question can do when I already fear its answer.",
+        "rawText": "Joan: “I am beginning to understand how much damage a question can do when I already fear its answer.”",
+        "isDialogue": true,
+        "id": "scene_3b_d2",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Then do not ask me to carry the burden of a fear I did not create.",
+        "rawText": "Aflania: “Then do not ask me to carry the burden of a fear I did not create.”",
+        "isDialogue": true,
+        "id": "scene_3b_d3",
+        "expression": "thoughtful",
+        "background": "bedroom",
+        "paranoiaDelta": -10,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "transition": {
+      "prompt": "Continue to Scene 3 or Scene 4A, depending on the investigation route.",
+      "conditionalTarget": {
+        "condition": "knowsEmiliaSecret",
+        "trueTarget": "scene_4a",
+        "falseTarget": "scene_3"
+      }
+    }
+  },
+  "scene_3c": {
+    "id": "scene_3c",
+    "title": "SCENE 3C: THE SERVANT'S ACCOUNT",
+    "background": "corridor",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan questions the servant and learns that several people could have passed through the western corridor. The location of the brooch cannot establish who placed it there. Joan must seek further testimony.",
+        "rawText": "Joan questions the servant and learns that several people could have passed through the western corridor. The location of the brooch cannot establish who placed it there. Joan must seek further testimony.",
+        "isDialogue": false,
+        "id": "scene_3c_d0",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "So the brooch proves nothing about Aflania.",
+        "rawText": "Joan: “So the brooch proves nothing about Aflania.”",
+        "isDialogue": true,
+        "id": "scene_3c_d1",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Servant",
+        "text": "Only that it was found there, my lord.",
+        "rawText": "Servant: “Only that it was found there, my lord.”",
+        "isDialogue": true,
+        "id": "scene_3c_d2",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "Then I must not make it say more than it can.",
+        "rawText": "Joan: “Then I must not make it say more than it can.”",
+        "isDialogue": true,
+        "id": "scene_3c_d3",
+        "expression": "neutral",
+        "background": "corridor",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "transition": {
+      "prompt": "Continue to Scene 3 or Scene 4A.",
+      "conditionalTarget": {
+        "condition": "knowsEmiliaSecret",
+        "trueTarget": "scene_4a",
+        "falseTarget": "scene_3"
+      }
+    }
+  },
+  "scene_3d": {
+    "id": "scene_3d",
+    "title": "SCENE 3D: LAQQUO'S REACTION",
+    "background": "main_hall",
+    "dialogues": [
+      {
+        "speaker": "Joan",
+        "text": "Do you recognize this?",
+        "rawText": "Joan: “Do you recognize this?”",
+        "isDialogue": true,
+        "id": "scene_3d_d0",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "It belongs to Aflania, does it not?",
+        "rawText": "Laqquo: “It belongs to Aflania, does it not?”",
+        "isDialogue": true,
+        "id": "scene_3d_d1",
+        "expression": "sharp",
+        "background": "main_hall",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "You answered quickly.",
+        "rawText": "Joan: “You answered quickly.”",
+        "isDialogue": true,
+        "id": "scene_3d_d2",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "Everyone knows she wears it.",
+        "rawText": "Laqquo: “Everyone knows she wears it.”",
+        "isDialogue": true,
+        "id": "scene_3d_d3",
+        "expression": "sharp",
+        "background": "main_hall",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "Knowing what it is does not explain how it came to the corridor.",
+        "rawText": "Joan: “Knowing what it is does not explain how it came to the corridor.”",
+        "isDialogue": true,
+        "id": "scene_3d_d4",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "Then perhaps you should ask your wife.",
+        "rawText": "Laqquo: “Then perhaps you should ask your wife.”",
+        "isDialogue": true,
+        "id": "scene_3d_d5",
+        "expression": "sharp",
+        "background": "main_hall",
+        "paranoiaDelta": 15,
+        "glitchEffect": true,
+        "item": "silver_butterfly_brooch"
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_3d",
+      "prompt": "Joan must decide whether to confront him or gather more testimony:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Confront Laqquo directly in the main hall.",
+          "targetScene": "scene_3",
+          "paranoiaDelta": 5,
+          "description": "Joan summons Aflania, Cassian, and Laqquo for a collective reckoning."
+        },
+        {
+          "key": "B",
+          "text": "Seek testimony from Emilia regarding Laqquo's actions.",
+          "targetScene": "scene_2b",
+          "paranoiaDelta": -5,
+          "description": "Joan visits Emilia to uncover how Laqquo acquired the brooch."
+        },
+        {
+          "key": "C",
+          "text": "Question the servant further about who had access to the corridor.",
+          "targetScene": "scene_3c",
+          "paranoiaDelta": 0,
+          "description": "Joan interrogates the servant about corridor movements."
+        }
+      ]
+    }
+  },
+  "scene_4a": {
+    "id": "scene_4a",
+    "title": "SCENE 4A: THE BUTTERFLY REVEALED",
+    "background": "main_hall",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan confronts Laqquo with Emilia present.",
+        "rawText": "Joan confronts Laqquo with Emilia present.",
+        "isDialogue": false,
+        "id": "scene_4a_d0",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "Emilia tells me that you asked her to obtain Aflania's butterfly brooch.",
+        "rawText": "Joan: “Emilia tells me that you asked her to obtain Aflania's butterfly brooch.”",
+        "isDialogue": true,
+        "id": "scene_4a_d1",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "You have betrayed me.",
+        "rawText": "Laqquo: “You have betrayed me.”",
+        "isDialogue": true,
+        "id": "scene_4a_d2",
+        "expression": "glitch_extreme",
+        "background": "main_hall",
+        "paranoiaDelta": 20,
+        "glitchEffect": true,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Emilia",
+        "text": "No. I have stopped protecting your secrets.",
+        "rawText": "Emilia: “No. I have stopped protecting your secrets.”",
+        "isDialogue": true,
+        "id": "scene_4a_d3",
+        "expression": "resolute",
+        "background": "main_hall",
+        "paranoiaDelta": -10,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "Why did you want it?",
+        "rawText": "Joan: “Why did you want it?”",
+        "isDialogue": true,
+        "id": "scene_4a_d4",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "You were always praised. Your victories, your marriage, your position. Everyone looked at you as though you were extraordinary. I was expected to serve and remain grateful.",
+        "rawText": "Laqquo: “You were always praised. Your victories, your marriage, your position. Everyone looked at you as though you were extraordinary. I was expected to serve and remain grateful.”",
+        "isDialogue": true,
+        "id": "scene_4a_d5",
+        "expression": "glitch_extreme",
+        "background": "main_hall",
+        "paranoiaDelta": 20,
+        "glitchEffect": true,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "So you decided to destroy what I loved?",
+        "rawText": "Joan: “So you decided to destroy what I loved?”",
+        "isDialogue": true,
+        "id": "scene_4a_d6",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Laqquo",
+        "text": "I decided to show you that even a great man can be made a fool.",
+        "rawText": "Laqquo: “I decided to show you that even a great man can be made a fool.”",
+        "isDialogue": true,
+        "id": "scene_4a_d7",
+        "expression": "glitch_extreme",
+        "background": "main_hall",
+        "paranoiaDelta": 20,
+        "glitchEffect": true,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Emilia",
+        "text": "Do not let him turn this into another contest of pride. He wants you to lose control.",
+        "rawText": "Emilia: “Do not let him turn this into another contest of pride. He wants you to lose control.”",
+        "isDialogue": true,
+        "id": "scene_4a_d8",
+        "expression": "resolute",
+        "background": "main_hall",
+        "paranoiaDelta": -10,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "You will answer to the authorities. Your actions will be examined, and the truth will be made public.",
+        "rawText": "Joan: “You will answer to the authorities. Your actions will be examined, and the truth will be made public.”",
+        "isDialogue": true,
+        "id": "scene_4a_d9",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Laqquo is arrested. Witnesses are questioned, and Cassian is cleared. Aflania's innocence is established. But the damage to Joan and Aflania's relationship cannot be undone simply by exposing a lie.",
+        "rawText": "Laqquo is arrested. Witnesses are questioned, and Cassian is cleared. Aflania's innocence is established. But the damage to Joan and Aflania's relationship cannot be undone simply by exposing a lie.",
+        "isDialogue": false,
+        "id": "scene_4a_d10",
+        "expression": "neutral",
+        "background": "main_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_5",
+      "prompt": "CHOICE 5: WHAT DOES JOAN DO AFTER LAQQUO'S ARREST?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apologize to Aflania and work to rebuild their marriage.",
+          "targetScene": "ending_a",
+          "paranoiaDelta": -20,
+          "description": "Joan sincerely apologizes and dedicates himself to healing the trust."
+        },
+        {
+          "key": "B",
+          "text": "Offer Aflania the freedom to leave if she no longer feels safe.",
+          "targetScene": "ending_d",
+          "paranoiaDelta": 5,
+          "description": "Joan respects her wounded boundaries, accepting separation with quiet sorrow."
+        },
+        {
+          "key": "C",
+          "text": "Focus on his duties and assume that the truth will repair everything.",
+          "targetScene": "ending_e",
+          "paranoiaDelta": 10,
+          "description": "Joan retreats into silence, mistakenly believing exoneration equals healing."
+        }
+      ]
+    }
+  },
+  "scene_4b": {
+    "id": "scene_4b",
+    "title": "SCENE 4B: THE LAST TEST",
+    "background": "bedroom",
+    "dialogues": [
+      {
+        "speaker": "Aflania",
+        "text": "You have been avoiding me.",
+        "rawText": "Aflania: “You have been avoiding me.”",
+        "isDialogue": true,
+        "id": "scene_4b_d0",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 15,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I have been occupied.",
+        "rawText": "Joan: “I have been occupied.”",
+        "isDialogue": true,
+        "id": "scene_4b_d1",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "With Laqquo?",
+        "rawText": "Aflania: “With Laqquo?”",
+        "isDialogue": true,
+        "id": "scene_4b_d2",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 15,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "With the truth.",
+        "rawText": "Joan: “With the truth.”",
+        "isDialogue": true,
+        "id": "scene_4b_d3",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "And where do I stand while you search for it?",
+        "rawText": "Aflania: “And where do I stand while you search for it?”",
+        "isDialogue": true,
+        "id": "scene_4b_d4",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 15,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I have not accused you.",
+        "rawText": "Joan: “I have not accused you.”",
+        "isDialogue": true,
+        "id": "scene_4b_d5",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Not in words. But you have allowed another man's accusation to decide how you look at me.",
+        "rawText": "Aflania: “Not in words. But you have allowed another man's accusation to decide how you look at me.”",
+        "isDialogue": true,
+        "id": "scene_4b_d6",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 15,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I love you, Joan. But I cannot carry the burden of every fear you refuse to confront.",
+        "rawText": "Aflania: “I love you, Joan. But I cannot carry the burden of every fear you refuse to confront.”",
+        "isDialogue": true,
+        "id": "scene_4b_d7",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 15,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Aflania leaves the chamber. Joan must choose what to do next.",
+        "rawText": "Aflania leaves the chamber. Joan must choose what to do next.",
+        "isDialogue": false,
+        "id": "scene_4b_d8",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": false,
+    "endingTagline": null,
+    "choice": {
+      "id": "choice_6",
+      "prompt": "CHOICE 6: THE FINAL DECISION",
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to Aflania and acknowledge the harm his suspicion has caused.",
+          "targetScene": "ending_a",
+          "paranoiaDelta": -25,
+          "description": "Joan catches Aflania before it is too late, taking full responsibility."
+        },
+        {
+          "key": "B",
+          "text": "Tell Aflania she must wait until he feels certain.",
+          "targetScene": "ending_d",
+          "paranoiaDelta": 10,
+          "description": "Joan insists on stubborn certainty, driving Aflania to depart."
+        },
+        {
+          "key": "C",
+          "text": "Abandon the investigation and return to the marriage without discussing what happened.",
+          "targetScene": "ending_e",
+          "paranoiaDelta": 15,
+          "description": "Joan sweeps the suspicion under the rug, leading to the heartbreaking farewell letter."
+        }
+      ]
+    }
+  },
+  "ending_a": {
+    "id": "ending_a",
+    "title": "ENDING A: THE TRUTH EXPOSED",
+    "background": "garden_olive_tree",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan finds Aflania in the garden beneath an olive tree. She is holding the butterfly brooch.",
+        "rawText": "Joan finds Aflania in the garden beneath an olive tree. She is holding the butterfly brooch.",
+        "isDialogue": false,
+        "id": "ending_a_d0",
+        "expression": "neutral",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "Laqquo has been arrested. Emilia's testimony helped establish how he manipulated the situation. Cassian has been cleared.",
+        "rawText": "Joan: “Laqquo has been arrested. Emilia's testimony helped establish how he manipulated the situation. Cassian has been cleared.”",
+        "isDialogue": true,
+        "id": "ending_a_d1",
+        "expression": "neutral",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I am glad the truth is known.",
+        "rawText": "Aflania: “I am glad the truth is known.”",
+        "isDialogue": true,
+        "id": "ending_a_d2",
+        "expression": "reconciled",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": -20,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "I am sorry that I allowed another man's words to change the way I treated you. I am sorry that I made you defend your loyalty when you had given me no reason to doubt it.",
+        "rawText": "Joan: “I am sorry that I allowed another man's words to change the way I treated you. I am sorry that I made you defend your loyalty when you had given me no reason to doubt it.”",
+        "isDialogue": true,
+        "id": "ending_a_d3",
+        "expression": "neutral",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Aflania",
+        "text": "You cannot promise that you will never feel jealous again.",
+        "rawText": "Aflania: “You cannot promise that you will never feel jealous again.”",
+        "isDialogue": true,
+        "id": "ending_a_d4",
+        "expression": "reconciled",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": -20,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "No. But I can promise that I will not treat jealousy as evidence. I will ask questions, listen to your answers, and take responsibility for my fears.",
+        "rawText": "Joan: “No. But I can promise that I will not treat jealousy as evidence. I will ask questions, listen to your answers, and take responsibility for my fears.”",
+        "isDialogue": true,
+        "id": "ending_a_d5",
+        "expression": "neutral",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I want to believe you.",
+        "rawText": "Aflania: “I want to believe you.”",
+        "isDialogue": true,
+        "id": "ending_a_d6",
+        "expression": "reconciled",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": -20,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Joan",
+        "text": "Then I will give you time to decide whether I deserve that belief.",
+        "rawText": "Joan: “Then I will give you time to decide whether I deserve that belief.”",
+        "isDialogue": true,
+        "id": "ending_a_d7",
+        "expression": "neutral",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "She reaches for his hand. Their marriage is not magically restored. They will need difficult conversations, patience, and time. But they have survived the moment that could have destroyed them.",
+        "rawText": "She reaches for his hand. Their marriage is not magically restored. They will need difficult conversations, patience, and time. But they have survived the moment that could have destroyed them.",
+        "isDialogue": false,
+        "id": "ending_a_d8",
+        "expression": "neutral",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "ENDING A: THE TRUTH EXPOSED — A CHANCE TO BEGIN AGAIN.",
+        "rawText": "ENDING A: THE TRUTH EXPOSED — A CHANCE TO BEGIN AGAIN.",
+        "isDialogue": false,
+        "id": "ending_a_d9",
+        "expression": "neutral",
+        "background": "garden_olive_tree",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "silver_butterfly_brooch"
+      }
+    ],
+    "isEnding": true,
+    "isEpilogue": false,
+    "endingTagline": "ENDING A: THE TRUTH EXPOSED — A CHANCE TO BEGIN AGAIN."
+  },
+  "ending_b": {
+    "id": "ending_b",
+    "title": "ENDING B: A FRAGILE PEACE",
+    "background": "bedroom",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan dismisses Laqquo's accusations but allows him to remain in his position. He believes Aflania, yet hopes silence will prevent further conflict. For several weeks, peace returns to the kingdom, but Laqquo remains close to Joan.",
+        "rawText": "Joan dismisses Laqquo's accusations but allows him to remain in his position. He believes Aflania, yet hopes silence will prevent further conflict. For several weeks, peace returns to the kingdom, but Laqquo remains close to Joan.",
+        "isDialogue": false,
+        "id": "ending_b_d0",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "You told me you believed me.",
+        "rawText": "Aflania: “You told me you believed me.”",
+        "isDialogue": true,
+        "id": "ending_b_d1",
+        "expression": "wounded",
+        "background": "bedroom",
+        "paranoiaDelta": 10,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "I do.",
+        "rawText": "Joan: “I do.”",
+        "isDialogue": true,
+        "id": "ending_b_d2",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Then why do you still look at me as though you are waiting to discover something?",
+        "rawText": "Aflania: “Then why do you still look at me as though you are waiting to discover something?”",
+        "isDialogue": true,
+        "id": "ending_b_d3",
+        "expression": "wounded",
+        "background": "bedroom",
+        "paranoiaDelta": 10,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Joan cannot answer. He has chosen peace without addressing the manipulation that threatened it. The lie survives in silence.",
+        "rawText": "Joan cannot answer. He has chosen peace without addressing the manipulation that threatened it. The lie survives in silence.",
+        "isDialogue": false,
+        "id": "ending_b_d4",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "ENDING B: A FRAGILE PEACE — THE LIE SURVIVES IN SILENCE.",
+        "rawText": "ENDING B: A FRAGILE PEACE — THE LIE SURVIVES IN SILENCE.",
+        "isDialogue": false,
+        "id": "ending_b_d5",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": true,
+    "isEpilogue": false,
+    "endingTagline": "ENDING B: A FRAGILE PEACE — THE LIE SURVIVES IN SILENCE."
+  },
+  "ending_c": {
+    "id": "ending_c",
+    "title": "ENDING C: THE MARRIAGE DESTROYED",
+    "background": "bedroom",
+    "dialogues": [
+      {
+        "speaker": "Joan",
+        "text": "You know precisely what I am accusing you of.",
+        "rawText": "Joan: “You know precisely what I am accusing you of.”",
+        "isDialogue": true,
+        "id": "ending_c_d0",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "No. I know only that you have decided to believe something about me without allowing me to defend myself.",
+        "rawText": "Aflania: “No. I know only that you have decided to believe something about me without allowing me to defend myself.”",
+        "isDialogue": true,
+        "id": "ending_c_d1",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 30,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Then defend yourself!",
+        "rawText": "Joan: “Then defend yourself!”",
+        "isDialogue": true,
+        "id": "ending_c_d2",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I have done nothing wrong.",
+        "rawText": "Aflania: “I have done nothing wrong.”",
+        "isDialogue": true,
+        "id": "ending_c_d3",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 30,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I will not remain in a marriage where my innocence is treated as a privilege you may withdraw whenever you become afraid.",
+        "rawText": "Aflania: “I will not remain in a marriage where my innocence is treated as a privilege you may withdraw whenever you become afraid.”",
+        "isDialogue": true,
+        "id": "ending_c_d4",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 30,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Aflania leaves the room. Joan does not pursue her. Years later, he remembers that night not as the moment he discovered her betrayal, but as the moment he created a betrayal that had never existed.",
+        "rawText": "Aflania leaves the room. Joan does not pursue her. Years later, he remembers that night not as the moment he discovered her betrayal, but as the moment he created a betrayal that had never existed.",
+        "isDialogue": false,
+        "id": "ending_c_d5",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "ENDING C: THE MARRIAGE DESTROYED — JEALOUSY WINS WITHOUT A SWORD.",
+        "rawText": "ENDING C: THE MARRIAGE DESTROYED — JEALOUSY WINS WITHOUT A SWORD.",
+        "isDialogue": false,
+        "id": "ending_c_d6",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": true,
+    "isEpilogue": false,
+    "endingTagline": "ENDING C: THE MARRIAGE DESTROYED — JEALOUSY WINS WITHOUT A SWORD."
+  },
+  "ending_d": {
+    "id": "ending_d",
+    "title": "ENDING D: THE PRICE OF FORGIVENESS",
+    "background": "bedroom",
+    "dialogues": [
+      {
+        "speaker": "Joan",
+        "text": "I do not wish to hold you against your will.",
+        "rawText": "Joan: “I do not wish to hold you against your will.”",
+        "isDialogue": true,
+        "id": "ending_d_d0",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "That is not the question. Do you understand why I might no longer feel safe with you?",
+        "rawText": "Aflania: “That is not the question. Do you understand why I might no longer feel safe with you?”",
+        "isDialogue": true,
+        "id": "ending_d_d1",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 5,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "Yes.",
+        "rawText": "Joan: “Yes.”",
+        "isDialogue": true,
+        "id": "ending_d_d2",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "I believe that you regret what happened. But I cannot promise that regret will make everything right.",
+        "rawText": "Aflania: “I believe that you regret what happened. But I cannot promise that regret will make everything right.”",
+        "isDialogue": true,
+        "id": "ending_d_d3",
+        "expression": "heartbroken",
+        "background": "bedroom",
+        "paranoiaDelta": 5,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Aflania returns to the capital. They exchange letters for several months, but eventually she tells Joan that she needs to build a life independent of their marriage. Joan accepts her decision. Their love was real, and their separation is real, too.",
+        "rawText": "Aflania returns to the capital. They exchange letters for several months, but eventually she tells Joan that she needs to build a life independent of their marriage. Joan accepts her decision. Their love was real, and their separation is real, too.",
+        "isDialogue": false,
+        "id": "ending_d_d4",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "ENDING D: THE PRICE OF FORGIVENESS — LOVE DOES NOT GUARANTEE RECONCILIATION.",
+        "rawText": "ENDING D: THE PRICE OF FORGIVENESS — LOVE DOES NOT GUARANTEE RECONCILIATION.",
+        "isDialogue": false,
+        "id": "ending_d_d5",
+        "expression": "neutral",
+        "background": "bedroom",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": true,
+    "isEpilogue": false,
+    "endingTagline": "ENDING D: THE PRICE OF FORGIVENESS — LOVE DOES NOT GUARANTEE RECONCILIATION."
+  },
+  "ending_e": {
+    "id": "ending_e",
+    "title": "ENDING E: THE UNFINISHED APOLOGY",
+    "background": "office_desk",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Joan returns to his duties, convinced that time will repair the damage. He does not accuse Aflania again, but he never apologizes properly. Eventually, he finds a letter on his desk.",
+        "rawText": "Joan returns to his duties, convinced that time will repair the damage. He does not accuse Aflania again, but he never apologizes properly. Eventually, he finds a letter on his desk.",
+        "isDialogue": false,
+        "id": "ending_e_d0",
+        "expression": "neutral",
+        "background": "office_desk",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Aflania",
+        "text": "Joan,\n\nI have waited for you to speak to me about what happened. I have waited for you to acknowledge that your silence hurt me almost as much as your suspicion.\n\nI do not believe you are incapable of love. I believe you loved me sincerely. But sincerity cannot replace responsibility.\n\nI am leaving for the capital. I hope you find peace.\n\nAflania.",
+        "rawText": "“Joan,\n\nI have waited for you to speak to me about what happened. I have waited for you to acknowledge that your silence hurt me almost as much as your suspicion.\n\nI do not believe you are incapable of love. I believe you loved me sincerely. But sincerity cannot replace responsibility.\n\nI am leaving for the capital. I hope you find peace.\n\nAflania.”",
+        "isDialogue": true,
+        "isLetter": true,
+        "id": "ending_e_d1",
+        "expression": "reading",
+        "background": "office_desk",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "aflania_letter"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Aflania leaves. Joan reads the letter twice. He has prevented the tragedy of the original story's final act, but he has not learned the lesson that might have saved his marriage. He mistook the absence of further conflict for healing.",
+        "rawText": "Aflania leaves. Joan reads the letter twice. He has prevented the tragedy of the original story's final act, but he has not learned the lesson that might have saved his marriage. He mistook the absence of further conflict for healing.",
+        "isDialogue": false,
+        "id": "ending_e_d2",
+        "expression": "neutral",
+        "background": "office_desk",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "ENDING E: THE UNFINISHED APOLOGY — SILENCE IS NOT THE SAME AS HEALING.",
+        "rawText": "ENDING E: THE UNFINISHED APOLOGY — SILENCE IS NOT THE SAME AS HEALING.",
+        "isDialogue": false,
+        "id": "ending_e_d3",
+        "expression": "neutral",
+        "background": "office_desk",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": true,
+    "isEpilogue": false,
+    "endingTagline": "ENDING E: THE UNFINISHED APOLOGY — SILENCE IS NOT THE SAME AS HEALING."
+  },
+  "epilogue": {
+    "id": "epilogue",
+    "title": "EPILOGUE: WHAT THE TRAGEDY COULD HAVE TAUGHT HIM",
+    "background": "lecture_hall",
+    "dialogues": [
+      {
+        "speaker": "Narrator",
+        "text": "Years later, Joan stands before a group of young officers who have gathered to hear him speak about leadership.",
+        "rawText": "Years later, Joan stands before a group of young officers who have gathered to hear him speak about leadership.",
+        "isDialogue": false,
+        "id": "epilogue_d0",
+        "expression": "neutral",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Young Officer",
+        "text": "General, what is the greatest danger a leader can face?",
+        "rawText": "Young Officer: “General, what is the greatest danger a leader can face?”",
+        "isDialogue": true,
+        "id": "epilogue_d1",
+        "expression": "respectful",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "An enemy who wishes to destroy you is dangerous. An enemy who understands what you fear is more dangerous still.",
+        "rawText": "Joan: “An enemy who wishes to destroy you is dangerous. An enemy who understands what you fear is more dangerous still.”",
+        "isDialogue": true,
+        "id": "epilogue_d2",
+        "expression": "neutral",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Young Officer",
+        "text": "And how does a man defend himself against such an enemy?",
+        "rawText": "Young Officer: “And how does a man defend himself against such an enemy?”",
+        "isDialogue": true,
+        "id": "epilogue_d3",
+        "expression": "respectful",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "By learning the difference between what he knows and what he fears.",
+        "rawText": "Joan: “By learning the difference between what he knows and what he fears.”",
+        "isDialogue": true,
+        "id": "epilogue_d4",
+        "expression": "neutral",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Young Officer",
+        "text": "Is that enough?",
+        "rawText": "Young Officer: “Is that enough?”",
+        "isDialogue": true,
+        "id": "epilogue_d5",
+        "expression": "respectful",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Joan",
+        "text": "No. He must also learn that the people he loves are not responsible for every fear he carries.",
+        "rawText": "Joan: “No. He must also learn that the people he loves are not responsible for every fear he carries.”",
+        "isDialogue": true,
+        "id": "epilogue_d6",
+        "expression": "neutral",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Joan tells them that he nearly destroyed his marriage because he mistook suspicion for wisdom. He urges them to ask what evidence supports a claim, what they may have failed to consider, and to remember that the person they accuse is a human being, not a problem to be solved.",
+        "rawText": "Joan tells them that he nearly destroyed his marriage because he mistook suspicion for wisdom. He urges them to ask what evidence supports a claim, what they may have failed to consider, and to remember that the person they accuse is a human being, not a problem to be solved.",
+        "isDialogue": false,
+        "id": "epilogue_d7",
+        "expression": "neutral",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "That evening, Joan finds an old letter from Aflania among his belongings. He reads it once more, folds it carefully, and puts it away.",
+        "rawText": "That evening, Joan finds an old letter from Aflania among his belongings. He reads it once more, folds it carefully, and puts it away.",
+        "isDialogue": false,
+        "id": "epilogue_d8",
+        "expression": "neutral",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": "aflania_letter"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "The tragedy was not simply that Joan became jealous. It was that he allowed another man's words to become more powerful than his own judgment, Aflania's voice, and the trust they had built together.",
+        "rawText": "The tragedy was not simply that Joan became jealous. It was that he allowed another man's words to become more powerful than his own judgment, Aflania's voice, and the trust they had built together.",
+        "isDialogue": false,
+        "id": "epilogue_d9",
+        "expression": "neutral",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      },
+      {
+        "speaker": "Narrator",
+        "text": "And in every moment before the final tragedy, another choice had been possible.",
+        "rawText": "And in every moment before the final tragedy, another choice had been possible.",
+        "isDialogue": false,
+        "id": "epilogue_d10",
+        "expression": "neutral",
+        "background": "lecture_hall",
+        "paranoiaDelta": 0,
+        "glitchEffect": false,
+        "item": null
+      }
+    ],
+    "isEnding": false,
+    "isEpilogue": true,
+    "endingTagline": null
+  }
+}
