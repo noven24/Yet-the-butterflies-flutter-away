@@ -149,11 +149,9 @@ body {
 
 @keyframes paranoia-screen-breathe {
   0%, 100% {
-    transform: scale(1);
     filter: contrast(1.1) brightness(0.98);
   }
   50% {
-    transform: scale(1.006);
     filter: contrast(1.15) brightness(0.94);
   }
 }
@@ -165,27 +163,25 @@ body {
 
 @keyframes paranoia-throb {
   0% {
-    transform: scale(1);
     filter: brightness(1);
   }
   25% {
-    transform: scale(1.012);
     filter: brightness(1.2) contrast(1.2) drop-shadow(0 0 25px rgba(220, 38, 38, 0.4));
   }
   100% {
-    transform: scale(1);
     filter: brightness(1);
   }
 }
 
 /* Destructive Choice Button (Choice 4 Option D):
-   Animasi bergetar (shake) & aura merah gelap */
+   Aura merah gelap elegan tanpa animasi bergetar (shake dimatikan) */
 .destructive-choice {
   background: radial-gradient(circle, rgba(127, 29, 29, 0.95) 0%, rgba(69, 10, 10, 0.98) 100%) !important;
   color: #fee2e2 !important;
   border: 2px solid #ef4444 !important;
   box-shadow: 0 0 25px rgba(220, 38, 38, 0.85), 0 0 50px rgba(153, 27, 27, 0.65), inset 0 0 15px rgba(239, 68, 68, 0.4) !important;
-  animation: destructive-shake 0.28s infinite ease-in-out, destructive-aura-pulse 1.4s infinite ease-in-out !important;
+  animation: destructive-aura-pulse 1.8s infinite ease-in-out !important;
+  transform: none !important;
   position: relative;
   overflow: hidden;
 }
@@ -194,15 +190,11 @@ body {
   background: radial-gradient(circle, rgba(185, 28, 28, 1) 0%, rgba(127, 29, 29, 1) 100%) !important;
   border-color: #fca5a5 !important;
   box-shadow: 0 0 35px rgba(239, 68, 68, 1), 0 0 70px rgba(185, 28, 28, 0.8), inset 0 0 20px rgba(254, 202, 202, 0.5) !important;
+  transform: translateY(-2px) !important;
 }
 
 @keyframes destructive-shake {
-  0% { transform: translate(0, 0) rotate(0deg); }
-  20% { transform: translate(-2px, 1.5px) rotate(-0.5deg); }
-  40% { transform: translate(2px, -1.5px) rotate(0.5deg); }
-  60% { transform: translate(-1.5px, -1px) rotate(-0.3deg); }
-  80% { transform: translate(1.5px, 1px) rotate(0.3deg); }
-  100% { transform: translate(0, 0) rotate(0deg); }
+  0%, 100% { transform: none; }
 }
 
 @keyframes destructive-aura-pulse {
@@ -737,10 +729,6 @@ body {
   transform: translateY(1px);
 }
 
-.destructive-choice {
-  animation: destructive-pulse 1.6s infinite alternate ease-in-out;
-}
-
 @keyframes destructive-pulse {
   0% {
     box-shadow: 0 0 12px rgba(220, 38, 38, 0.6), inset 0 0 8px rgba(220, 38, 38, 0.3);
@@ -749,7 +737,6 @@ body {
   100% {
     box-shadow: 0 0 25px rgba(239, 68, 68, 0.95), inset 0 0 16px rgba(239, 68, 68, 0.5);
     border-color: rgba(254, 202, 202, 1);
-    transform: scale(1.015);
   }
 }
 

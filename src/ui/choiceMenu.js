@@ -120,7 +120,7 @@ export class ChoiceMenu {
             ${cleanText}
           </span>
           ${isDestructive ? `
-            <span class="absolute -top-2 right-2 px-1.5 py-0.5 bg-red-900 text-[9px] uppercase font-mono tracking-widest text-red-200 border border-red-400 rounded animate-pulse">
+            <span class="absolute -top-2 right-2 px-1.5 py-0.5 bg-red-900 text-[9px] uppercase font-mono tracking-widest text-red-200 border border-red-400 rounded">
               ANGER
             </span>
           ` : ''}
