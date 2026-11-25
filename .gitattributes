@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.mp4 binary -delta
+*.png binary -delta
+*.jpg binary -delta
+*.mp3 binary -delta
+*.webm binary -delta
