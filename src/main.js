@@ -21,6 +21,7 @@ import { EndingScreen } from './ui/endingScreen.js';
 import { EndingsGalleryModal } from './ui/endingsGalleryModal.js';
 import { SceneTransition } from './ui/sceneTransition.js';
 import { CreditScene } from './ui/creditScene.js';
+import { startAssetPreloading } from './utils/assetPreloader.js';
 
 class VisualNovelApp {
   constructor() {
@@ -69,6 +70,9 @@ class VisualNovelApp {
   }
 
   _initEngine() {
+    // 0. Asynchronous Asset Preloader & In-Memory Decode Cache
+    startAssetPreloading();
+
     // 1. Butterfly Particles
     this.particleSystem = new ButterflyParticleSystem(this.particleCanvas);
     this.particleSystem.start();

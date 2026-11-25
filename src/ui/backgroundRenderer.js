@@ -4,6 +4,7 @@
  */
 
 import { assetMap } from '../data/assetMap.js';
+import { preloadImage } from '../utils/assetPreloader.js';
 
 export class BackgroundRenderer {
   constructor(bgContainer, vignetteElement) {
@@ -12,13 +13,14 @@ export class BackgroundRenderer {
     this.currentBgKey = null;
     this.activeLayer = 1;
 
-    // Create two layers for seamless crossfade
+    // Create two layers for seamless GPU-accelerated crossfade
     this.layer1 = document.createElement('div');
     this.layer2 = document.createElement('div');
 
     [this.layer1, this.layer2].forEach(l => {
-      l.className = 'absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-700 ease-in-out pointer-events-none';
+      l.className = 'absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-700 ease-in-out pointer-events-none transform-gpu';
       l.style.opacity = '0';
+      l.style.willChange = 'opacity';
       this.container.appendChild(l);
     });
 
@@ -41,14 +43,20 @@ export class BackgroundRenderer {
       }
     }
 
-    const incoming = this.activeLayer === 1 ? this.layer2 : this.layer1;
-    const outgoing = this.activeLayer === 1 ? this.layer1 : this.layer2;
+    // Ensure image is pre-decoded in memory before triggering crossfade
+    preloadImage(bgPath).then(() => {
+      // Guard against race conditions if background changed in the meantime
+      if (this.currentBgKey !== bgKey) return;
 
-    incoming.style.backgroundImage = `url('${bgPath}')`;
-    incoming.style.opacity = '1';
-    outgoing.style.opacity = '0';
+      const incoming = this.activeLayer === 1 ? this.layer2 : this.layer1;
+      const outgoing = this.activeLayer === 1 ? this.layer1 : this.layer2;
 
-    this.activeLayer = this.activeLayer === 1 ? 2 : 1;
+      incoming.style.backgroundImage = `url('${bgPath}')`;
+      incoming.style.opacity = '1';
+      outgoing.style.opacity = '0';
+
+      this.activeLayer = this.activeLayer === 1 ? 2 : 1;
+    });
   }
 
   updateParanoiaVignette(paranoiaLevel, isGlitching) {

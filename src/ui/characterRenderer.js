@@ -8,6 +8,7 @@
  */
 
 import { assetMap } from '../data/assetMap.js';
+import { preloadImage } from '../utils/assetPreloader.js';
 
 export class CharacterRenderer {
   constructor(containerElement) {
@@ -18,6 +19,7 @@ export class CharacterRenderer {
     this.currentSceneId = null;
     this.activeInterlocutor = null;
     this.activeExpression = 'peaceful';
+    this.lastRenderKey = null;
 
     this._initParallax();
   }
@@ -87,12 +89,27 @@ export class CharacterRenderer {
 
     // Strict POV Guard: General Joan is ALWAYS the first-person camera, never render Joan
     if (!charName || charName.toLowerCase() === 'joan') {
+      this.lastRenderKey = null;
       this.container.innerHTML = '';
       return;
     }
 
     const isSpeaker = speaker === charName;
     const expressionToUse = isSpeaker ? rawExpr : (this.activeExpression || 'peaceful');
+    const glitchKey = isGlitching && charName === 'Laqquo' ? 'glitch' : 'normal';
+    const speakerKey = isSpeaker ? 'speaker' : 'listener';
+    const renderKey = `${charName}|${expressionToUse}|${glitchKey}|${speakerKey}`;
+
+    // If identical sprite state is already rendered, only re-apply parallax to avoid DOM re-creation
+    if (this.lastRenderKey === renderKey) {
+      this._applyParallax();
+      return;
+    }
+    this.lastRenderKey = renderKey;
+
+    const src = this._getSpriteSrc(charName, expressionToUse);
+    preloadImage(src); // Ensure pre-cached
+
     const spriteContent = this._renderSpriteContent(
       charName,
       expressionToUse,
@@ -102,7 +119,7 @@ export class CharacterRenderer {
     this.container.innerHTML = `
       <div class="char-positioner absolute bottom-0 inset-x-0 flex items-end justify-center pointer-events-none overflow-hidden h-full">
         <div class="char-parallax relative flex items-end justify-center h-full pointer-events-none transition-transform duration-100 ease-out">
-          <div class="char-center ddlc-breathe relative flex justify-center items-end w-auto max-w-[125vw] sm:max-w-[95vw] md:max-w-[85vw] lg:max-w-[50vw] pointer-events-none transition-all duration-300 ${isSpeaker ? 'sprite-speaker' : 'sprite-listener'}" style="filter: drop-shadow(0 20px 45px rgba(0,0,0,0.85));">
+          <div class="char-center ddlc-breathe relative flex justify-center items-end w-auto max-w-[125vw] sm:max-w-[95vw] md:max-w-[85vw] lg:max-w-[50vw] pointer-events-none transition-all duration-300 transform-gpu ${isSpeaker ? 'sprite-speaker' : 'sprite-listener'}" style="filter: drop-shadow(0 20px 45px rgba(0,0,0,0.85)); will-change: opacity, transform;">
             ${spriteContent}
           </div>
         </div>
@@ -246,7 +263,7 @@ export class CharacterRenderer {
     const src = this._getSpriteSrc(charName, expression);
     const glitchClass = isGlitching ? 'filter drop-shadow-[0_15px_35px_rgba(239,68,68,0.85)] hue-rotate-[320deg] contrast-125' : '';
 
-    return `<img src="${src}" alt="${charName}" class="h-full w-auto object-contain object-bottom select-none pointer-events-none transition-all duration-300 ${glitchClass}" />`;
+    return `<img src="${src}" alt="${charName}" decoding="async" class="h-full w-auto object-contain object-bottom select-none pointer-events-none transition-all duration-300 transform-gpu ${glitchClass}" style="will-change: opacity, transform;" />`;
   }
 
   /**
@@ -256,6 +273,7 @@ export class CharacterRenderer {
     this.currentSceneId = null;
     this.activeInterlocutor = null;
     this.activeExpression = 'peaceful';
+    this.lastRenderKey = null;
     this.container.innerHTML = '';
   }
 }
